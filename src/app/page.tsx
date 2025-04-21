@@ -205,8 +205,7 @@ function MapContent({ incidentsToDisplay, categoryColorMap }: { incidentsToDispl
                       setSelectedIncidentIndex(null); 
                   }}
               >
-                  {/* Changed marker color to blue */}
-                   <div className="w-5 h-5 bg-blue-600 rounded-full border-2 border-white shadow-md flex items-center justify-center"></div>
+                  {/* The custom div is removed here to use the default pin */}
               </AdvancedMarker>
           )}
 
@@ -327,6 +326,11 @@ export default function Home() {
   const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
   const [activeTab, setActiveTab] = useState<Tab>('map');
 
+  // --- NEW: State for collapsible sections ---
+  const [isHowToUseVisible, setIsHowToUseVisible] = useState(true);
+  const [isDisclaimerVisible, setIsDisclaimerVisible] = useState(true);
+  const [isFiltersVisible, setIsFiltersVisible] = useState(true);
+
   // --- Filter State ---
   const [incidentDateStart, setIncidentDateStart] = useState('');
   const [incidentDateEnd, setIncidentDateEnd] = useState('');
@@ -405,6 +409,29 @@ export default function Home() {
       });
       return map;
   }, [uniqueCategories]); // Depends only on the unique categories list
+
+  // --- NEW: Effect to collapse sections on mobile by default ---
+  useEffect(() => {
+    const mediaQuery = window.matchMedia('(max-width: 767px)'); // Corresponds to md breakpoint in Tailwind
+
+    const handleResize = () => {
+      // Set initial state based on screen size
+      // We only set it to false initially on mobile, we don't force it closed on resize
+      // If you want it to always collapse on resize to mobile, remove the initial check
+    };
+
+    // Set initial state on mount
+    if (mediaQuery.matches) {
+      setIsHowToUseVisible(false);
+      setIsDisclaimerVisible(false);
+      setIsFiltersVisible(false);
+    }
+
+    // Optional: Add listener if you want dynamic collapsing on resize (might be jarring)
+    // mediaQuery.addEventListener('change', handleResize);
+    // return () => mediaQuery.removeEventListener('change', handleResize);
+
+  }, []); // Empty dependency array ensures this runs only once on mount
 
   // --- Filtering Logic ---
    const filteredIncidents = useMemo(() => {
@@ -585,123 +612,155 @@ export default function Home() {
           </nav>
         </div>
 
-        {/* Context / Usage Note */} 
-        <div className="p-3 mb-4 bg-green-50 border border-green-200 rounded-md text-sm text-green-800 space-y-1">
-           <p>
-             <strong>How to use:</strong> Use the search bar on the map to find an address or place in Palo Alto. Use the filters below to refine incidents shown on the map. Click dots for details. A blue marker shows your searched location.
-           </p>
-           <p>
-             This is a personal project created by <a href="https://sourya.co/" target="_blank" rel="noopener noreferrer" className="font-medium text-indigo-600 hover:underline">Sourya Kakarla</a> as a potentially useful tool during a house hunt. It&apos;s not affiliated with the City of Palo Alto Police Department.
-           </p>
+        {/* Context / Usage Note - NOW TOGGLABLE */}
+        <div className="mb-4 bg-green-50 border border-green-200 rounded-md text-sm text-green-800 overflow-hidden">
+           <button
+             onClick={() => setIsHowToUseVisible(!isHowToUseVisible)}
+             className="w-full p-3 text-left font-medium flex items-center hover:bg-green-100 focus:outline-none"
+           >
+             <span className="mr-2">{isHowToUseVisible ? '▲' : '▼'}</span> {/* Icon on the left */}
+             <span>How to use</span>
+           </button>
+           {isHowToUseVisible && (
+             <div className="p-3 border-t border-green-200 space-y-1">
+               <p>
+                 Use the search bar on the map to find an address or place in Palo Alto. Use the filters below to refine incidents shown on the map. Click dots for details. A standard map pin shows your searched location.
+               </p>
+               <p>
+                 This is a personal project created by <a href="https://sourya.co/" target="_blank" rel="noopener noreferrer" className="font-medium text-indigo-600 hover:underline">Sourya Kakarla</a> as a potentially useful tool during a house hunt. It&apos;s not affiliated with the City of Palo Alto Police Department.
+               </p>
+             </div>
+           )}
         </div>
 
-        {/* Disclaimer Section */}
-        <div className="p-3 mb-4 bg-orange-50 border border-orange-200 rounded-md text-sm text-orange-800">
-           <p>
-             <strong>Disclaimer:</strong> The data presented is based on automated processing of public records and may contain errors or omissions. No guarantee of accuracy or completeness is provided. Always consult the official <a href="https://www.paloalto.gov/Departments/Police/Public-Information-Portal/Police-Report-Log" target="_blank" rel="noopener noreferrer" className="font-semibold text-orange-700 underline hover:text-orange-900">Palo Alto Police Report Logs</a> for authoritative information.
-           </p>
+        {/* Disclaimer Section - NOW TOGGLABLE */}
+        <div className="mb-4 bg-orange-50 border border-orange-200 rounded-md text-sm text-orange-800 overflow-hidden">
+           <button
+             onClick={() => setIsDisclaimerVisible(!isDisclaimerVisible)}
+             className="w-full p-3 text-left font-medium flex items-center hover:bg-orange-100 focus:outline-none"
+           >
+             <span className="mr-2">{isDisclaimerVisible ? '▲' : '▼'}</span> {/* Icon on the left */}
+             <span>Disclaimer</span>
+           </button>
+           {isDisclaimerVisible && (
+             <div className="p-3 border-t border-orange-200">
+               <p>
+                 The data presented is based on automated processing of public records and may contain errors or omissions. No guarantee of accuracy or completeness is provided. Always consult the official <a href="https://www.paloalto.gov/Departments/Police/Public-Information-Portal/Police-Report-Log" target="_blank" rel="noopener noreferrer" className="font-semibold text-orange-700 underline hover:text-orange-900">Palo Alto Police Report Logs</a> for authoritative information.
+               </p>
+             </div>
+           )}
         </div>
 
-        {/* --- NEW: Filter Controls --- */}
-        {activeTab === 'map' && ( // Only show filters when map tab is active
-            <div className="mb-6 p-4 bg-white rounded-lg shadow border border-gray-200">
-                <h2 className="text-lg font-semibold mb-3 text-gray-700">Filter Incidents</h2>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                    {/* Incident Date Filter */}
-                    <div>
-                        <label className="block text-sm font-medium text-gray-600 mb-1">Incident Date Range</label>
-                        <div className="flex space-x-2">
-                            <input
-                                type="date"
-                                value={incidentDateStart}
-                                onChange={(e) => setIncidentDateStart(e.target.value)}
-                                className="w-full p-1.5 border border-gray-300 rounded-md text-sm text-gray-700 focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500"
-                                aria-label="Incident start date"
-                            />
-                            <input
-                                type="date"
-                                value={incidentDateEnd}
-                                onChange={(e) => setIncidentDateEnd(e.target.value)}
-                                className="w-full p-1.5 border border-gray-300 rounded-md text-sm text-gray-700 focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500"
-                                aria-label="Incident end date"
-                                min={incidentDateStart} // Prevent end date being before start date
-                            />
+        {/* --- Filter Controls - NOW TOGGLABLE --- */}
+        {activeTab === 'map' && ( // Only show filters section when map tab is active
+            <div className="mb-6 bg-white rounded-lg shadow border border-gray-200 overflow-hidden">
+                <button
+                  onClick={() => setIsFiltersVisible(!isFiltersVisible)}
+                  className="w-full p-4 text-left text-lg font-semibold text-gray-700 flex items-center hover:bg-gray-50 focus:outline-none"
+                >
+                  <span className="mr-2">{isFiltersVisible ? '▲' : '▼'}</span> {/* Icon on the left */}
+                  <span>Filter Incidents</span>
+                </button>
+                {isFiltersVisible && (
+                  <div className="p-4 border-t border-gray-200"> {/* Content wrapper */}
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        {/* Incident Date Filter */}
+                        <div>
+                            <label className="block text-sm font-medium text-gray-600 mb-1">Incident Date Range</label>
+                            <div className="flex space-x-2">
+                                <input
+                                    type="date"
+                                    value={incidentDateStart}
+                                    onChange={(e) => setIncidentDateStart(e.target.value)}
+                                    className="w-full p-1.5 border border-gray-300 rounded-md text-sm text-gray-700 focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500"
+                                    aria-label="Incident start date"
+                                />
+                                <input
+                                    type="date"
+                                    value={incidentDateEnd}
+                                    onChange={(e) => setIncidentDateEnd(e.target.value)}
+                                    className="w-full p-1.5 border border-gray-300 rounded-md text-sm text-gray-700 focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500"
+                                    aria-label="Incident end date"
+                                    min={incidentDateStart} // Prevent end date being before start date
+                                />
+                            </div>
+                             <button
+                                onClick={() => { setIncidentDateStart(''); setIncidentDateEnd(''); }}
+                                className="mt-1.5 text-xs text-blue-600 hover:underline"
+                             >
+                                Clear Dates
+                             </button>
                         </div>
-                         <button
-                            onClick={() => { setIncidentDateStart(''); setIncidentDateEnd(''); }}
-                            className="mt-1.5 text-xs text-blue-600 hover:underline"
-                         >
-                            Clear Dates
-                         </button>
-                    </div>
 
-                    {/* Report Date Filter */}
-                    <div>
-                        <label className="block text-sm font-medium text-gray-600 mb-1">Police Log Date Range</label>
-                        <div className="flex space-x-2">
-                            <input
-                                type="date"
-                                value={reportDateStart}
-                                onChange={(e) => setReportDateStart(e.target.value)}
-                                className="w-full p-1.5 border border-gray-300 rounded-md text-sm text-gray-700 focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500"
-                                aria-label="Report start date"
-                            />
-                            <input
-                                type="date"
-                                value={reportDateEnd}
-                                onChange={(e) => setReportDateEnd(e.target.value)}
-                                className="w-full p-1.5 border border-gray-300 rounded-md text-sm text-gray-700 focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500"
-                                aria-label="Report end date"
-                                min={reportDateStart} // Prevent end date being before start date
-                            />
+                        {/* Report Date Filter */}
+                        <div>
+                            <label className="block text-sm font-medium text-gray-600 mb-1">Police Log Date Range</label>
+                            <div className="flex space-x-2">
+                                <input
+                                    type="date"
+                                    value={reportDateStart}
+                                    onChange={(e) => setReportDateStart(e.target.value)}
+                                    className="w-full p-1.5 border border-gray-300 rounded-md text-sm text-gray-700 focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500"
+                                    aria-label="Report start date"
+                                />
+                                <input
+                                    type="date"
+                                    value={reportDateEnd}
+                                    onChange={(e) => setReportDateEnd(e.target.value)}
+                                    className="w-full p-1.5 border border-gray-300 rounded-md text-sm text-gray-700 focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500"
+                                    aria-label="Report end date"
+                                    min={reportDateStart} // Prevent end date being before start date
+                                />
+                            </div>
+                             <button
+                                onClick={() => { setReportDateStart(''); setReportDateEnd(''); }}
+                                className="mt-1.5 text-xs text-blue-600 hover:underline"
+                             >
+                                 Clear Dates
+                             </button>
                         </div>
-                         <button
-                            onClick={() => { setReportDateStart(''); setReportDateEnd(''); }}
-                            className="mt-1.5 text-xs text-blue-600 hover:underline"
-                         >
-                             Clear Dates
-                         </button>
-                    </div>
 
-                    {/* Offense Category Filter - MODIFIED */}
-                    <div>
-                        <label className="block text-sm font-medium text-gray-600 mb-1">Offense Category(s)</label>
-                        <div className="max-h-32 overflow-y-auto border border-gray-300 rounded-md p-2 bg-gray-50 text-sm">
-                            {uniqueCategories.length > 0 ? (
-                                uniqueCategories.map(category => (
-                                    <div key={category} className="flex items-center mb-1">
-                                        {/* Color Swatch */}
-                                        <span
-                                            className="w-3 h-3 rounded-sm mr-2 inline-block flex-shrink-0"
-                                            style={{ backgroundColor: categoryColorMap[category] || '#9CA3AF' /* Default gray */ }}
-                                            title={category} // Tooltip with category name
-                                        ></span>
-                                        <input
-                                            type="checkbox"
-                                            id={`category-${category}`}
-                                            value={category}
-                                            checked={selectedCategories.includes(category)}
-                                            onChange={handleCategoryChange}
-                                            className="h-4 w-4 text-indigo-600 border-gray-300 rounded focus:ring-indigo-500 mr-2"
-                                        />
-                                        {/* Allow label to wrap if needed */}
-                                        <label htmlFor={`category-${category}`} className="text-gray-700 cursor-pointer break-words">
-                                            {category}
-                                        </label>
-                                    </div>
-                                ))
-                            ) : (
-                                <p className="text-gray-500 italic">No offense categories found.</p>
-                            )}
+                        {/* Offense Category Filter - MODIFIED */}
+                        <div>
+                            <label className="block text-sm font-medium text-gray-600 mb-1">Offense Category(s)</label>
+                            <div className="max-h-32 overflow-y-auto border border-gray-300 rounded-md p-2 bg-gray-50 text-sm">
+                                {uniqueCategories.length > 0 ? (
+                                    uniqueCategories.map(category => (
+                                        <div key={category} className="flex items-center mb-1">
+                                            {/* Color Swatch */}
+                                            <span
+                                                className="w-3 h-3 rounded-sm mr-2 inline-block flex-shrink-0"
+                                                style={{ backgroundColor: categoryColorMap[category] || '#9CA3AF' /* Default gray */ }}
+                                                title={category} // Tooltip with category name
+                                            ></span>
+                                            <input
+                                                type="checkbox"
+                                                id={`category-${category}`}
+                                                value={category}
+                                                checked={selectedCategories.includes(category)}
+                                                onChange={handleCategoryChange}
+                                                className="h-4 w-4 text-indigo-600 border-gray-300 rounded focus:ring-indigo-500 mr-2"
+                                            />
+                                            {/* Allow label to wrap if needed */}
+                                            <label htmlFor={`category-${category}`} className="text-gray-700 cursor-pointer break-words">
+                                                {category}
+                                            </label>
+                                        </div>
+                                    ))
+                                ) : (
+                                    <p className="text-gray-500 italic">No offense categories found.</p>
+                                )}
+                            </div>
+                             <button
+                                onClick={() => setSelectedCategories([])}
+                                className="mt-1.5 text-xs text-blue-600 hover:underline"
+                             >
+                                 Clear Selection
+                             </button>
                         </div>
-                         <button
-                            onClick={() => setSelectedCategories([])}
-                            className="mt-1.5 text-xs text-blue-600 hover:underline"
-                         >
-                             Clear Selection
-                         </button>
                     </div>
-                </div>
+                  </div>
+                )}
             </div>
         )}
 
