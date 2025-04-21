@@ -151,8 +151,8 @@ function MapContent() {
               <AdvancedMarker
                   key="search-result"
                   position={searchResultPosition}
-                  onClick={(e) => { 
-                      e.domEvent.stopPropagation(); 
+                  onClick={(_e) => { 
+                      _e.domEvent.stopPropagation(); 
                       // Re-open the place InfoWindow using the pinned details
                       setSelectedPlaceDetails(pinnedPlaceDetails); 
                       setSelectedIncidentIndex(null); 
