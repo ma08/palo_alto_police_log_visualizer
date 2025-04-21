@@ -122,7 +122,7 @@ function MapContent() {
           mapId="PALO_ALTO_INCIDENT_MAP"
           gestureHandling={"greedy"}
           disableDefaultUI={true}
-          onClick={(e) => {
+          onClick={() => {
               // Close both info windows on map click
               setSelectedIncidentIndex(null);
               setSelectedPlaceDetails(null);
@@ -134,8 +134,8 @@ function MapContent() {
               <AdvancedMarker
                 key={`${incident.case_number}-${index}`}
                 position={{ lat: incident.latitude, lng: incident.longitude }}
-                onClick={(_e) => {
-                    _e.domEvent.stopPropagation(); 
+                onClick={({ domEvent }) => {
+                    domEvent.stopPropagation(); 
                     setSelectedIncidentIndex(index); 
                     setSelectedPlaceDetails(null);
                 }}
@@ -151,8 +151,8 @@ function MapContent() {
               <AdvancedMarker
                   key="search-result"
                   position={searchResultPosition}
-                  onClick={(_e) => { 
-                      _e.domEvent.stopPropagation(); 
+                  onClick={(_) => { 
+                      _.domEvent.stopPropagation(); 
                       // Re-open the place InfoWindow using the pinned details
                       setSelectedPlaceDetails(pinnedPlaceDetails); 
                       setSelectedIncidentIndex(null); 
@@ -325,7 +325,7 @@ A high-level overview of the process used to generate the data for this visualiz
                 <li><strong>Text Extraction:</strong> The text content is extracted from each PDF file.</li>
                 <li><strong>Parsing:</strong> Custom parsing logic identifies and extracts relevant fields (Case #, Date, Time, Offense, Location) for each incident listed in the log.</li>
                 <li><strong>Data Cleaning & Structuring:</strong> The extracted data is cleaned (e.g., standardizing date formats) and structured into a consistent format (CSV or JSON).</li>
-                <li><strong>Geocoding:</strong> The extracted 'Location' strings are sent to the Google Geocoding API to obtain precise latitude and longitude coordinates, along with a formatted address and location type interpretation (e.g., specific address, intersection).</li>
+                <li><strong>Geocoding:</strong> The extracted &apos;Location&apos; strings are sent to the Google Geocoding API to obtain precise latitude and longitude coordinates, along with a formatted address and location type interpretation (e.g., specific address, intersection).</li>
                 <li><strong>Data Aggregation:</strong> Geocoded data from multiple logs is combined into a single dataset (`incidents.json`).</li>
                 <li><strong>Visualization:</strong> This website loads the aggregated data and uses the Google Maps API (via `@vis.gl/react-google-maps`) to display the incidents as markers on the interactive map.</li>
               </ol>
