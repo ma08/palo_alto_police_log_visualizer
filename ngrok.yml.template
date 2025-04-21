@@ -1,0 +1,16 @@
+# This file is a template for the ngrok.yml file.
+#
+# You will want to copy this file to ngrok.yml, replace the authtoken with your own and add your own tunnels.
+# To get the auth token, sign up for an account at https://ngrok.com/
+# and find your token at https://dashboard.ngrok.com/auth/your-authtoken
+
+# ngrok start --config ngrok.yml website
+# (remove `domain`` to use free plan)
+
+version: 2
+authtoken: <authtoken>
+tunnels:
+  website:
+    proto: http
+    addr: 3000
+    domain: <domain>.ngrok.app

@@ -46,8 +46,13 @@ interface PlaceDetails {
     formattedAddress: string;
 }
 
-// Inner component to use the useMap hook
-function MapContent({ incidentsToDisplay }: { incidentsToDisplay: Incident[] }) {
+// --- NEW: Type for Category Color Map ---
+interface CategoryColorMap {
+    [key: string]: string;
+}
+
+// Inner component to use the useMap hook - MODIFIED Props
+function MapContent({ incidentsToDisplay, categoryColorMap }: { incidentsToDisplay: Incident[], categoryColorMap: CategoryColorMap }) {
   const map = useMap();
   const [selectedIncidentIndex, setSelectedIncidentIndex] = useState<number | null>(null);
   const [searchResultPosition, setSearchResultPosition] = useState<LatLngLiteral | null>(null);
@@ -165,20 +170,25 @@ function MapContent({ incidentsToDisplay }: { incidentsToDisplay: Incident[] }) 
               setSelectedPlaceDetails(null);
           }}
         >
-          {/* Incident Markers */}
+          {/* Incident Markers - MODIFIED */}
           {incidents.map((incident, index) => {
+            const markerColor = categoryColorMap[incident.offense_category] || '#9CA3AF'; // Use map, default to gray
             return (
               <AdvancedMarker
                 key={`${incident.case_number}-${incident.police_record_date_str ?? index}`}
                 position={{ lat: incident.latitude, lng: incident.longitude }}
                 onClick={({ domEvent }) => {
-                    domEvent.stopPropagation(); 
-                    setSelectedIncidentIndex(index); 
+                    domEvent.stopPropagation();
+                    setSelectedIncidentIndex(index);
                     setSelectedPlaceDetails(null);
                 }}
               >
-                {/* Fixed marker color */}
-                <div className={`w-4 h-4 bg-red-600 rounded-full border-2 border-white shadow-sm`}></div>
+                {/* Use dynamic background color */}
+                <div
+                  className={`w-4 h-4 rounded-full border-2 border-white shadow-sm`}
+                  style={{ backgroundColor: markerColor }}
+                  title={incident.offense_category} // Add tooltip for category on marker hover
+                ></div>
               </AdvancedMarker>
             );
           })}
@@ -262,6 +272,57 @@ function MapContent({ incidentsToDisplay }: { incidentsToDisplay: Incident[] }) 
   );
 }
 
+// Define the order of severity
+const severityOrder = ['High', 'Medium', 'Low', 'Informational/Other', 'Default'];
+
+// Helper function to get the severity level string for a category
+const getCategorySeverityLevel = (category: string): string => {
+    const lowerCaseCategory = category.toLowerCase();
+
+    if (lowerCaseCategory.includes('violent') || lowerCaseCategory.includes('robbery') || lowerCaseCategory.includes('burglary') || lowerCaseCategory.includes('weapon') || lowerCaseCategory.includes('assault')) {
+        return 'High';
+    }
+    if (lowerCaseCategory.includes('theft') || lowerCaseCategory.includes('fraud') || lowerCaseCategory.includes('vehicle') || lowerCaseCategory.includes('stolen') || lowerCaseCategory.includes('dui') || lowerCaseCategory.includes('narcotic')) {
+        return 'Medium';
+    }
+    if (lowerCaseCategory.includes('property') || lowerCaseCategory.includes('vandalism') || lowerCaseCategory.includes('traffic') || lowerCaseCategory.includes('disturbance') || lowerCaseCategory.includes('trespass') || lowerCaseCategory.includes('public order')) {
+        return 'Low';
+    }
+     if (lowerCaseCategory.includes('admin') || lowerCaseCategory.includes('other') || lowerCaseCategory.includes('warrant') || lowerCaseCategory.includes('arrest') || lowerCaseCategory.includes('lost') || lowerCaseCategory.includes('found') || lowerCaseCategory.includes('suspicious') || lowerCaseCategory.includes('info') || lowerCaseCategory.includes('misc') || lowerCaseCategory.includes('welfare')) {
+        return 'Informational/Other';
+    }
+    return 'Default'; // Should ideally not happen with cleaned categories
+};
+
+// Helper function to assign colors based on keywords (can be placed outside the component or inside useMemo)
+// REVISED Logic to better match cleaned categories
+const assignColorByCategory = (category: string): string => {
+    const lowerCaseCategory = category.toLowerCase();
+
+    // High Severity (Explicit Match or Keywords)
+    if (lowerCaseCategory.includes('violent') || lowerCaseCategory.includes('robbery') || lowerCaseCategory.includes('burglary') || lowerCaseCategory.includes('weapon') || lowerCaseCategory.includes('assault')) {
+        return '#B91C1C'; // Dark Red
+    }
+    // Medium Severity (Explicit Match or Keywords)
+    if (lowerCaseCategory.includes('theft') || lowerCaseCategory.includes('fraud') || lowerCaseCategory.includes('vehicle') || lowerCaseCategory.includes('stolen') || lowerCaseCategory.includes('dui') || lowerCaseCategory.includes('narcotic')) {
+        return '#F59E0B'; // Orange
+    }
+    // -- NEW: Specific Yellow for Property/Disturbance --
+    if (lowerCaseCategory.includes('property') || lowerCaseCategory.includes('vandalism') || lowerCaseCategory.includes('disturbance') || lowerCaseCategory.includes('trespass') || lowerCaseCategory.includes('public order')) {
+        return '#EAB308'; // Yellow 500
+    }
+    // Low Severity (Traffic primarily now)
+    if (lowerCaseCategory.includes('traffic')) {
+        return '#2563EB'; // Blue
+    }
+    // Informational/Other (Explicit Match or Keywords)
+    if (lowerCaseCategory.includes('admin') || lowerCaseCategory.includes('other') || lowerCaseCategory.includes('warrant') || lowerCaseCategory.includes('arrest') || lowerCaseCategory.includes('lost') || lowerCaseCategory.includes('found') || lowerCaseCategory.includes('suspicious') || lowerCaseCategory.includes('info') || lowerCaseCategory.includes('misc') || lowerCaseCategory.includes('welfare')) {
+        return '#6B7280'; // Gray
+    }
+    // Default
+    return '#9CA3AF'; // Lighter Gray
+};
+
 export default function Home() {
   const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
   const [activeTab, setActiveTab] = useState<Tab>('map');
@@ -312,7 +373,7 @@ export default function Home() {
     return utcDate;
   };
 
-  // --- Get Unique Offense Categories ---
+  // --- Get Unique Offense Categories - SORTED BY SEVERITY ---
   const uniqueCategories = useMemo(() => {
       const categories = new Set<string>();
       allIncidents.forEach(incident => {
@@ -320,8 +381,30 @@ export default function Home() {
               categories.add(incident.offense_category);
           }
       });
-      return Array.from(categories).sort(); // Sort alphabetically
+      // Convert Set to Array and sort using custom severity logic
+      return Array.from(categories).sort((a, b) => {
+          const severityA = getCategorySeverityLevel(a);
+          const severityB = getCategorySeverityLevel(b);
+          const indexA = severityOrder.indexOf(severityA);
+          const indexB = severityOrder.indexOf(severityB);
+
+          // If severity is different, sort by severity order
+          if (indexA !== indexB) {
+              return indexA - indexB;
+          }
+          // If severity is the same, sort alphabetically
+          return a.localeCompare(b);
+      });
   }, [allIncidents]); // Recalculate only if allIncidents changes
+
+  // --- NEW: Generate Category Color Map ---
+  const categoryColorMap = useMemo(() => {
+      const map: CategoryColorMap = {}; // Use interface type
+      uniqueCategories.forEach(category => {
+          map[category] = assignColorByCategory(category);
+      });
+      return map;
+  }, [uniqueCategories]); // Depends only on the unique categories list
 
   // --- Filtering Logic ---
    const filteredIncidents = useMemo(() => {
@@ -434,7 +517,7 @@ export default function Home() {
          }
       }
 
-      // Offense Category Filter
+      // Offense Category Filter - MODIFIED
       if (selectedCategories.length > 0 && !selectedCategories.includes(incident.offense_category)) {
         return false;
       }
@@ -580,13 +663,19 @@ export default function Home() {
                          </button>
                     </div>
 
-                    {/* Offense Category Filter - Using Checkboxes in a scrollable div */}
+                    {/* Offense Category Filter - MODIFIED */}
                     <div>
                         <label className="block text-sm font-medium text-gray-600 mb-1">Offense Category(s)</label>
                         <div className="max-h-32 overflow-y-auto border border-gray-300 rounded-md p-2 bg-gray-50 text-sm">
                             {uniqueCategories.length > 0 ? (
                                 uniqueCategories.map(category => (
                                     <div key={category} className="flex items-center mb-1">
+                                        {/* Color Swatch */}
+                                        <span
+                                            className="w-3 h-3 rounded-sm mr-2 inline-block flex-shrink-0"
+                                            style={{ backgroundColor: categoryColorMap[category] || '#9CA3AF' /* Default gray */ }}
+                                            title={category} // Tooltip with category name
+                                        ></span>
                                         <input
                                             type="checkbox"
                                             id={`category-${category}`}
@@ -595,7 +684,10 @@ export default function Home() {
                                             onChange={handleCategoryChange}
                                             className="h-4 w-4 text-indigo-600 border-gray-300 rounded focus:ring-indigo-500 mr-2"
                                         />
-                                        <label htmlFor={`category-${category}`} className="text-gray-700">{category}</label>
+                                        {/* Allow label to wrap if needed */}
+                                        <label htmlFor={`category-${category}`} className="text-gray-700 cursor-pointer break-words">
+                                            {category}
+                                        </label>
                                     </div>
                                 ))
                             ) : (
@@ -615,12 +707,15 @@ export default function Home() {
 
         {/* Tab Content */}
         <div className="flex-grow relative"> {/* Added relative positioning for absolute search bar */}
-          {/* Map View - Pass filtered incidents */}
+          {/* Map View - Pass filtered incidents AND color map */}
           {activeTab === 'map' && (
             <APIProvider apiKey={apiKey} libraries={['places']}>
               <div className="relative w-full h-[65vh] md:h-[70vh] rounded-lg shadow-lg overflow-hidden border border-gray-300">
-                 {/* Pass the filtered incidents to MapContent */}
-                 <MapContent incidentsToDisplay={filteredIncidents} />
+                 {/* Pass the filtered incidents AND the color map */}
+                 <MapContent
+                    incidentsToDisplay={filteredIncidents}
+                    categoryColorMap={categoryColorMap} // Pass the map here
+                 />
               </div>
             </APIProvider>
           )}
