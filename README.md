@@ -2,6 +2,14 @@
 
 This directory contains the Next.js application for visualizing the processed Palo Alto police report data on an interactive map.
 
+## Deployment
+
+The application is deployed and live on Vercel:
+
+**[https://palo-alto-police-log-visualizer.vercel.app/](https://palo-alto-police-log-visualizer.vercel.app/)**
+
+Deployment is handled automatically via the Vercel GitHub integration for the `main` branch of the [ma08/palo_alto_police_log_visualizer](https://github.com/ma08/palo_alto_police_log_visualizer) repository.
+
 ## Purpose
 
 - Display geocoded police incidents from `/public/data/incidents.json` on an interactive Google Map.
