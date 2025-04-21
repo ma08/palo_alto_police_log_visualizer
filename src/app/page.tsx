@@ -414,11 +414,12 @@ export default function Home() {
   useEffect(() => {
     const mediaQuery = window.matchMedia('(max-width: 767px)'); // Corresponds to md breakpoint in Tailwind
 
-    const handleResize = () => {
+    // Removed unused handleResize function
+    // const handleResize = () => {
       // Set initial state based on screen size
       // We only set it to false initially on mobile, we don't force it closed on resize
       // If you want it to always collapse on resize to mobile, remove the initial check
-    };
+    // };
 
     // Set initial state on mount
     if (mediaQuery.matches) {
