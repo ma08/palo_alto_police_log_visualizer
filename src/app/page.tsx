@@ -20,20 +20,6 @@ interface Incident {
   // Removed 'id' and 'description'
 }
 
-// Function to determine marker color based on location interpretation
-const getMarkerColor = (interpretation: string): string => {
-  switch (interpretation) {
-    case 'SPECIFIC_ADDRESS':
-      return 'bg-blue-500'; // Blue for specific address
-    case 'INTERSECTION':
-    case 'ROUTE':
-      return 'bg-orange-500'; // Orange for intersection/route
-    case 'GENERAL_AREA':
-    default:
-      return 'bg-gray-500'; // Gray for general/unknown
-  }
-};
-
 // Define Tab component type
 type Tab = 'map' | 'source' | 'methodology';
 
@@ -144,19 +130,17 @@ function MapContent() {
         >
           {/* Incident Markers */}
           {incidents.map((incident, index) => {
-            // Removed markerColor calculation - using fixed color now
-            // const markerColor = getMarkerColor(incident.location_interpretation);
             return (
               <AdvancedMarker
                 key={`${incident.case_number}-${index}`}
                 position={{ lat: incident.latitude, lng: incident.longitude }}
-                onClick={(e) => { 
-                    e.domEvent.stopPropagation(); 
+                onClick={(_e) => {
+                    _e.domEvent.stopPropagation(); 
                     setSelectedIncidentIndex(index); 
                     setSelectedPlaceDetails(null);
                 }}
               >
-                {/* Changed marker color to reddish-orange */}
+                {/* Fixed marker color */}
                 <div className={`w-4 h-4 bg-red-600 rounded-full border-2 border-white shadow-sm`}></div>
               </AdvancedMarker>
             );
@@ -279,6 +263,23 @@ export default function Home() {
           </nav>
         </div>
 
+        {/* Context / Usage Note */} 
+        <div className="p-3 mb-4 bg-green-50 border border-green-200 rounded-md text-sm text-green-800 space-y-1">
+           <p>
+             <strong>How to use:</strong> Use the search bar on the map to find an address or place in Palo Alto. The map shows incidents reported in the last ~30 days (based on available public logs), marked with red dots. Click dots for details. A blue marker shows your searched location.
+           </p>
+           <p>
+             This is a personal project created by <a href="https://sourya.co/" target="_blank" rel="noopener noreferrer" className="font-medium text-indigo-600 hover:underline">Sourya Kakarla</a> as a potentially useful tool during a house hunt. It&apos;s not affiliated with the City of Palo Alto Police Department.
+           </p>
+        </div>
+
+        {/* Disclaimer Section */}
+        <div className="p-3 mb-4 bg-orange-50 border border-orange-200 rounded-md text-sm text-orange-800">
+           <p>
+             <strong>Disclaimer:</strong> The data presented is based on automated processing of public records and may contain errors or omissions. No guarantee of accuracy or completeness is provided. Always consult the official <a href="https://www.paloalto.gov/Departments/Police/Public-Information-Portal/Police-Report-Log" target="_blank" rel="noopener noreferrer" className="font-semibold text-orange-700 underline hover:text-orange-900">Palo Alto Police Report Logs</a> for authoritative information.
+           </p>
+        </div>
+
         {/* Tab Content */}
         <div className="flex-grow relative"> {/* Added relative positioning for absolute search bar */}
           {/* Map View - Now uses MapContent component */} 
@@ -329,20 +330,14 @@ A high-level overview of the process used to generate the data for this visualiz
                 <li><strong>Visualization:</strong> This website loads the aggregated data and uses the Google Maps API (via `@vis.gl/react-google-maps`) to display the incidents as markers on the interactive map.</li>
               </ol>
               <p>
-                Error handling and rate limiting are implemented during the geocoding step. Some locations may not be geocoded successfully if the address is ambiguous or doesn't match Google Maps data.
+                Error handling and rate limiting are implemented during the geocoding step. Some locations may not be geocoded successfully if the address is ambiguous or doesn&apos;t match Google Maps data.
               </p>
             </div>
           )}
         </div>
 
-        {/* Footer Notes */}
+        {/* Footer Notes - Remains empty */}
         <footer className="mt-8 text-center text-xs text-gray-500 space-y-2">
-          <p>
-            This is a personal project created by <a href="https://sourya.co/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Sourya Kakarla</a> as a potentially useful tool during a house hunt in Palo Alto. It is not affiliated with the City of Palo Alto Police Department.
-          </p>
-          <p>
-            <strong>Disclaimer:</strong> The data presented is based on automated processing of public records and may contain errors or omissions. No guarantee of accuracy or completeness is provided. Always consult the official <a href="https://www.paloalto.gov/Departments/Police/Public-Information-Portal/Police-Report-Log" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Palo Alto Police Report Logs</a> for authoritative information.
-          </p>
         </footer>
       </main>
     </div>
