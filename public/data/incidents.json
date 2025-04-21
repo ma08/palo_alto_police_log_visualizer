@@ -10,7 +10,9 @@
     "formatted_address": "El Camino Real & Middle Ave, Menlo Park, CA 94025, USA",
     "google_maps_uri": "https://maps.google.com/?q=El+Camino+Real+%26+Middle+Ave,+Menlo+Park,+CA+94025,+USA&ftid=0x808fa4b374673f95:0x11cd9af3a6572b43",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "april-01-2025",
+    "police_record_date": "April 01, 2025"
   },
   {
     "case_number": "25-01126",
@@ -23,7 +25,9 @@
     "formatted_address": "El Camino Real & Galvez St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?q=El+Camino+Real+%26+Galvez+St,+Palo+Alto,+CA+94301,+USA&ftid=0x808fbb2451e36ec1:0x38e741690fdc138d",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "april-01-2025",
+    "police_record_date": "April 01, 2025"
   },
   {
     "case_number": "25-01135",
@@ -36,7 +40,9 @@
     "formatted_address": "470 Matadero Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=15734665055923993868",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-01-2025",
+    "police_record_date": "April 01, 2025"
   },
   {
     "case_number": "25-01199",
@@ -49,7 +55,9 @@
     "formatted_address": "2452 Watson Ct, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=8365710209272835743",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-01-2025",
+    "police_record_date": "April 01, 2025"
   },
   {
     "case_number": "25-01208",
@@ -62,7 +70,9 @@
     "formatted_address": "855 El Camino Real, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=11118077703284017645",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-01-2025",
+    "police_record_date": "April 01, 2025"
   },
   {
     "case_number": "25-80218",
@@ -75,7 +85,9 @@
     "formatted_address": "722 Ashby Dr, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=16946665163692467534",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-01-2025",
+    "police_record_date": "April 01, 2025"
   },
   {
     "case_number": "25-01237",
@@ -88,7 +100,9 @@
     "formatted_address": "1000 Tanland Dr, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?q=1000+Tanland+Dr,+Palo+Alto,+CA+94303,+USA&ftid=0x808fbbacdd9e383b:0x55bdd7507ad7a0ff",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-01-2025",
+    "police_record_date": "April 01, 2025"
   },
   {
     "case_number": "25-80219",
@@ -101,7 +115,9 @@
     "formatted_address": "480 E Meadow Dr, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=22357886726615768",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-01-2025",
+    "police_record_date": "April 01, 2025"
   },
   {
     "case_number": "25-01238",
@@ -114,7 +130,9 @@
     "formatted_address": "100 Santa Rita Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?q=100+Santa+Rita+Ave,+Palo+Alto,+CA+94301,+USA&ftid=0x808fbae38462280b:0x4270f461eaa7d062",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-01-2025",
+    "police_record_date": "April 01, 2025"
   },
   {
     "case_number": "25-80221",
@@ -127,7 +145,9 @@
     "formatted_address": "180 El Camino Real, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10694182497936204464",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-01-2025",
+    "police_record_date": "April 01, 2025"
   },
   {
     "case_number": "25-01249",
@@ -140,7 +160,9 @@
     "formatted_address": "650 Addison Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=5219294379775897708",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-01-2025",
+    "police_record_date": "April 01, 2025"
   },
   {
     "case_number": "25-01250",
@@ -153,7 +175,9 @@
     "formatted_address": "879 Loma Verde Ave, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=16012634385170397325",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-01-2025",
+    "police_record_date": "April 01, 2025"
   },
   {
     "case_number": "25-01252",
@@ -166,7 +190,9 @@
     "formatted_address": "2775 Embarcadero Rd, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=16863978290233558804",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-01-2025",
+    "police_record_date": "April 01, 2025"
   },
   {
     "case_number": "25-80222",
@@ -179,7 +205,9 @@
     "formatted_address": "2350 Birch St, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?q=2350+Birch+St,+Palo+Alto,+CA+94306,+USA&ftid=0x808fbae5b7214d77:0xa97265441ad27b47",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-01-2025",
+    "police_record_date": "April 01, 2025"
   },
   {
     "case_number": "25-01253",
@@ -192,7 +220,9 @@
     "formatted_address": "757 Tennyson Ave, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=9296510258926984932",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-01-2025",
+    "police_record_date": "April 01, 2025"
   },
   {
     "case_number": "25-01254",
@@ -205,7 +235,9 @@
     "formatted_address": "El Camino Real, Palo Alto, CA, USA",
     "google_maps_uri": "https://maps.google.com/?q=El+Camino+Real,+Palo+Alto,+CA,+USA&ftid=0x808fcb0b782c489d:0x380db039ff6cae75",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "april-01-2025",
+    "police_record_date": "April 01, 2025"
   },
   {
     "case_number": "25-01255",
@@ -218,7 +250,9 @@
     "formatted_address": "180 El Camino Real, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10694182497936204464",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-01-2025",
+    "police_record_date": "April 01, 2025"
   },
   {
     "case_number": "25-01257",
@@ -231,7 +265,9 @@
     "formatted_address": "356 Iris Way, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=13821446246599032561",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-01-2025",
+    "police_record_date": "April 01, 2025"
   },
   {
     "case_number": "25-01267",
@@ -244,7 +280,9 @@
     "formatted_address": "2727 Midtown Ct, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=16824516795052090390",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-01-2025",
+    "police_record_date": "April 01, 2025"
   },
   {
     "case_number": "25-01259",
@@ -257,7 +295,9 @@
     "formatted_address": "3000 Alexis Dr, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=4769930203467316478",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-01-2025",
+    "police_record_date": "April 01, 2025"
   },
   {
     "case_number": "25-01262",
@@ -270,7 +310,9 @@
     "formatted_address": "Byron St, Palo Alto, CA, USA",
     "google_maps_uri": "https://maps.google.com/?cid=12326788350264137327",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "april-01-2025",
+    "police_record_date": "April 01, 2025"
   },
   {
     "case_number": "25-80223",
@@ -283,7 +325,9 @@
     "formatted_address": "542 Addison Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=9429936130935474488",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-01-2025",
+    "police_record_date": "April 01, 2025"
   },
   {
     "case_number": "25-01266",
@@ -296,7 +340,9 @@
     "formatted_address": "251 Lytton Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=3572005691908711346",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-01-2025",
+    "police_record_date": "April 01, 2025"
   },
   {
     "case_number": "25-01274",
@@ -309,7 +355,9 @@
     "formatted_address": "875 Blake Wilbur Dr, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=5702440941838653080",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-01-2025",
+    "police_record_date": "April 01, 2025"
   },
   {
     "case_number": "25-00927",
@@ -322,7 +370,9 @@
     "formatted_address": "4207 Pomona Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=7061224375187598502",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-27-2025",
+    "police_record_date": "March 27, 2025"
   },
   {
     "case_number": "25-00947",
@@ -335,7 +385,9 @@
     "formatted_address": "3500 Deer Creek Rd, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10681539549466842605",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-27-2025",
+    "police_record_date": "March 27, 2025"
   },
   {
     "case_number": "25-01050",
@@ -348,7 +400,9 @@
     "formatted_address": "2000 Princeton St, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?q=2000+Princeton+St,+Palo+Alto,+CA+94306,+USA&ftid=0x808fbae81da593c3:0xe19e87316b024044",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-27-2025",
+    "police_record_date": "March 27, 2025"
   },
   {
     "case_number": "25-01052",
@@ -361,7 +415,9 @@
     "formatted_address": "Welch Rd, Palo Alto, CA, USA",
     "google_maps_uri": "https://maps.google.com/?q=Welch+Rd,+Palo+Alto,+CA,+USA&ftid=0x808fa4d2c14cc1bd:0x686b8edefe119f33",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "march-27-2025",
+    "police_record_date": "March 27, 2025"
   },
   {
     "case_number": "25-01080",
@@ -374,7 +430,9 @@
     "formatted_address": "912 Webster St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=1621208257784908831",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-27-2025",
+    "police_record_date": "March 27, 2025"
   },
   {
     "case_number": "25-01118",
@@ -387,7 +445,9 @@
     "formatted_address": "275 Forest Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=95238810619628067",
     "place_types": "subpremise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-27-2025",
+    "police_record_date": "March 27, 2025"
   },
   {
     "case_number": "25-01121",
@@ -400,7 +460,9 @@
     "formatted_address": "275 Forest Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=95238810619628067",
     "place_types": "subpremise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-27-2025",
+    "police_record_date": "March 27, 2025"
   },
   {
     "case_number": "25-01147",
@@ -413,7 +475,9 @@
     "formatted_address": "Alma St & Churchill Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?q=Alma+St+%26+Churchill+Ave,+Palo+Alto,+CA+94306,+USA&ftid=0x808fbb1f81fb91bd:0x60389d0e73564ecd",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "march-27-2025",
+    "police_record_date": "March 27, 2025"
   },
   {
     "case_number": "25-01160",
@@ -426,7 +490,9 @@
     "formatted_address": "El Camino Real & Palo Alto Ave, Palo Alto, CA 94025, USA",
     "google_maps_uri": "https://maps.google.com/?q=El+Camino+Real+%26+Palo+Alto+Ave,+Palo+Alto,+CA+94025,+USA&ftid=0x808fbb4a7c72bda9:0xba38b43c16645b48",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "march-27-2025",
+    "police_record_date": "March 27, 2025"
   },
   {
     "case_number": "25-01162",
@@ -439,7 +505,9 @@
     "formatted_address": "Alma St & Churchill Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?q=Alma+St+%26+Churchill+Ave,+Palo+Alto,+CA+94306,+USA&ftid=0x808fbb1f81fb91bd:0x60389d0e73564ecd",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "march-27-2025",
+    "police_record_date": "March 27, 2025"
   },
   {
     "case_number": "25-01170",
@@ -452,7 +520,9 @@
     "formatted_address": "E Meadow Dr & Alma St, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?q=E+Meadow+Dr+%26+Alma+St,+Palo+Alto,+CA+94306,+USA&ftid=0x808fba640221cb6f:0x2726f775a2a810c4",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "march-27-2025",
+    "police_record_date": "March 27, 2025"
   },
   {
     "case_number": "25-01172",
@@ -465,7 +535,9 @@
     "formatted_address": "180 El Camino Real, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10694182497936204464",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-27-2025",
+    "police_record_date": "March 27, 2025"
   },
   {
     "case_number": "25-80208",
@@ -478,7 +550,9 @@
     "formatted_address": "267 Curtner Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=840489834215323244",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-27-2025",
+    "police_record_date": "March 27, 2025"
   },
   {
     "case_number": "25-80209",
@@ -491,7 +565,9 @@
     "formatted_address": "1938 Channing Ave, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=3294801778788542425",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-27-2025",
+    "police_record_date": "March 27, 2025"
   },
   {
     "case_number": "25-01179",
@@ -504,7 +580,9 @@
     "formatted_address": "4267 Los Palos Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=14843005653348966861",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-27-2025",
+    "police_record_date": "March 27, 2025"
   },
   {
     "case_number": "25-01178",
@@ -517,7 +595,9 @@
     "formatted_address": "Embarcadero Rd, Palo Alto, CA, USA",
     "google_maps_uri": "https://maps.google.com/?cid=13727010580694448510",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "march-27-2025",
+    "police_record_date": "March 27, 2025"
   },
   {
     "case_number": "25-01183",
@@ -530,7 +610,9 @@
     "formatted_address": "940 Old Trace Ct, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=1536716173632754008",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-27-2025",
+    "police_record_date": "March 27, 2025"
   },
   {
     "case_number": "25-01184",
@@ -543,7 +625,9 @@
     "formatted_address": "Hamilton Ave, Palo Alto, CA, USA",
     "google_maps_uri": "https://maps.google.com/?cid=9026519809318710028",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "march-27-2025",
+    "police_record_date": "March 27, 2025"
   },
   {
     "case_number": "25-01188",
@@ -556,7 +640,9 @@
     "formatted_address": "Middlefield Rd, Palo Alto, CA, USA",
     "google_maps_uri": "https://maps.google.com/?q=Middlefield+Rd,+Palo+Alto,+CA,+USA&ftid=0x808fa35b186a39fb:0x5984eee2a66a9cc2",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "march-27-2025",
+    "police_record_date": "March 27, 2025"
   },
   {
     "case_number": "25-01187",
@@ -569,7 +655,9 @@
     "formatted_address": "100 Waverley Oaks, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=2807708870634833879",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-27-2025",
+    "police_record_date": "March 27, 2025"
   },
   {
     "case_number": "25-01189",
@@ -582,7 +670,9 @@
     "formatted_address": "300 Sherman Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?q=300+Sherman+Ave,+Palo+Alto,+CA+94306,+USA&ftid=0x808fbae578cd98bd:0x77e7fe745e0d0383",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-27-2025",
+    "police_record_date": "March 27, 2025"
   },
   {
     "case_number": "25-80212",
@@ -595,7 +685,9 @@
     "formatted_address": "101 California Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=2972138083190103366",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-27-2025",
+    "police_record_date": "March 27, 2025"
   },
   {
     "case_number": "25-01190",
@@ -608,7 +700,9 @@
     "formatted_address": "1398 Dana Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=3012582292705554380",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-27-2025",
+    "police_record_date": "March 27, 2025"
   },
   {
     "case_number": "25-01191",
@@ -621,7 +715,9 @@
     "formatted_address": "330 Victoria Pl, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=889486047482251187",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-27-2025",
+    "police_record_date": "March 27, 2025"
   },
   {
     "case_number": "25-01192",
@@ -634,7 +730,9 @@
     "formatted_address": "10 Roosevelt Cir, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=2192602337882019096",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-27-2025",
+    "police_record_date": "March 27, 2025"
   },
   {
     "case_number": "25-01204",
@@ -647,7 +745,9 @@
     "formatted_address": "180 El Camino Real, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10694182497936204464",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-27-2025",
+    "police_record_date": "March 27, 2025"
   },
   {
     "case_number": "25-80211",
@@ -660,7 +760,9 @@
     "formatted_address": "101 California Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=2972138083190103366",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-27-2025",
+    "police_record_date": "March 27, 2025"
   },
   {
     "case_number": "25-01206",
@@ -673,7 +775,9 @@
     "formatted_address": "670 San Antonio Rd, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=4359645663640018685",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-27-2025",
+    "police_record_date": "March 27, 2025"
   },
   {
     "case_number": "25-01207",
@@ -686,7 +790,9 @@
     "formatted_address": "14 Phillips Rd, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=7106878875624506477",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-27-2025",
+    "police_record_date": "March 27, 2025"
   },
   {
     "case_number": "25-01153",
@@ -699,7 +805,9 @@
     "formatted_address": "180 El Camino Real, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10694182497936204464",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-28-2025",
+    "police_record_date": "March 28, 2025"
   },
   {
     "case_number": "25-01157",
@@ -712,7 +820,9 @@
     "formatted_address": "El Camino Real, Palo Alto, CA, USA",
     "google_maps_uri": "https://maps.google.com/?q=El+Camino+Real,+Palo+Alto,+CA,+USA&ftid=0x808fcb0b782c489d:0x380db039ff6cae75",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "march-28-2025",
+    "police_record_date": "March 28, 2025"
   },
   {
     "case_number": "25-80210",
@@ -725,7 +835,9 @@
     "formatted_address": "69 Roosevelt Cir, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=4859442316237720528",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-28-2025",
+    "police_record_date": "March 28, 2025"
   },
   {
     "case_number": "25-01195",
@@ -738,7 +850,9 @@
     "formatted_address": "Emerson St, Palo Alto, CA, USA",
     "google_maps_uri": "https://maps.google.com/?cid=7217207255978246931",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "march-28-2025",
+    "police_record_date": "March 28, 2025"
   },
   {
     "case_number": "25-01201",
@@ -751,7 +865,9 @@
     "formatted_address": "50 Embarcadero Rd, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=2486590626818643138",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-28-2025",
+    "police_record_date": "March 28, 2025"
   },
   {
     "case_number": "25-01205",
@@ -764,7 +880,9 @@
     "formatted_address": "2100 E Bayshore Rd, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?q=2100+E+Bayshore+Rd,+Palo+Alto,+CA+94303,+USA&ftid=0x808fbba64c7b1b5f:0xe7072cd8b05c27f0",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-28-2025",
+    "police_record_date": "March 28, 2025"
   },
   {
     "case_number": "25-01210",
@@ -777,7 +895,9 @@
     "formatted_address": "2277 Byron St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=11449196810323400639",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-28-2025",
+    "police_record_date": "March 28, 2025"
   },
   {
     "case_number": "25-01212",
@@ -790,7 +910,9 @@
     "formatted_address": "Arastradero Rd, Palo Alto, CA, USA",
     "google_maps_uri": "https://maps.google.com/?q=Arastradero+Rd,+Palo+Alto,+CA,+USA&ftid=0x808fbaa6cffbbee9:0xef6ecc8c88d70b7a",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "march-28-2025",
+    "police_record_date": "March 28, 2025"
   },
   {
     "case_number": "25-01218",
@@ -803,7 +925,9 @@
     "formatted_address": "180 University Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=11766582229427853489",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-28-2025",
+    "police_record_date": "March 28, 2025"
   },
   {
     "case_number": "25-00981",
@@ -816,7 +940,9 @@
     "formatted_address": "700 E Charleston Rd, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=415966570215805198",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-11-2025",
+    "police_record_date": "April 11, 2025"
   },
   {
     "case_number": "25-01194",
@@ -829,7 +955,9 @@
     "formatted_address": "Forest Ave & Alma St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?q=Forest+Ave+%26+Alma+St,+Palo+Alto,+CA+94301,+USA&ftid=0x808fbb3af40808c1:0xd1d3e7a81b5d8d62",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "april-11-2025",
+    "police_record_date": "April 11, 2025"
   },
   {
     "case_number": "25-01227",
@@ -842,7 +970,9 @@
     "formatted_address": "574 Arastradero Rd, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=162037127346049883",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-11-2025",
+    "police_record_date": "April 11, 2025"
   },
   {
     "case_number": "25-01270",
@@ -855,7 +985,9 @@
     "formatted_address": "1177 Amarillo Ave, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=17493331118692785934",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-11-2025",
+    "police_record_date": "April 11, 2025"
   },
   {
     "case_number": "25-01297",
@@ -868,7 +1000,9 @@
     "formatted_address": "Embarcadero Rd, Palo Alto, CA, USA",
     "google_maps_uri": "https://maps.google.com/?cid=13727010580694448510",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "april-11-2025",
+    "police_record_date": "April 11, 2025"
   },
   {
     "case_number": "25-01299",
@@ -881,7 +1015,9 @@
     "formatted_address": "1011 Moreno Ave, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=11701404310876291063",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-11-2025",
+    "police_record_date": "April 11, 2025"
   },
   {
     "case_number": "25-01305",
@@ -894,7 +1030,9 @@
     "formatted_address": "171 University Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=3663799386503035531",
     "place_types": "subpremise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-11-2025",
+    "police_record_date": "April 11, 2025"
   },
   {
     "case_number": "25-01324",
@@ -907,7 +1045,9 @@
     "formatted_address": "352 University Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=13793715162782932768",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-11-2025",
+    "police_record_date": "April 11, 2025"
   },
   {
     "case_number": "25-01323",
@@ -920,7 +1060,9 @@
     "formatted_address": "855 El Camino Real, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=11118077703284017645",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-11-2025",
+    "police_record_date": "April 11, 2025"
   },
   {
     "case_number": "25-01336",
@@ -933,7 +1075,9 @@
     "formatted_address": "2106 Oberlin St, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=3810816207443178708",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-11-2025",
+    "police_record_date": "April 11, 2025"
   },
   {
     "case_number": "25-01341",
@@ -946,7 +1090,9 @@
     "formatted_address": "1560 Sand Hill Rd, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=14687464090596093708",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-11-2025",
+    "police_record_date": "April 11, 2025"
   },
   {
     "case_number": "25-01346",
@@ -959,7 +1105,9 @@
     "formatted_address": "Middlefield Rd, Palo Alto, CA, USA",
     "google_maps_uri": "https://maps.google.com/?q=Middlefield+Rd,+Palo+Alto,+CA,+USA&ftid=0x808fa35b186a39fb:0x5984eee2a66a9cc2",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "april-11-2025",
+    "police_record_date": "April 11, 2025"
   },
   {
     "case_number": "25-01356",
@@ -972,7 +1120,9 @@
     "formatted_address": "US-PAO-EW32, 1032 Elwell Ct, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=12099400535542139267",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-11-2025",
+    "police_record_date": "April 11, 2025"
   },
   {
     "case_number": "25-01357",
@@ -985,7 +1135,9 @@
     "formatted_address": "490 California Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=17278969293295857370",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-11-2025",
+    "police_record_date": "April 11, 2025"
   },
   {
     "case_number": "25-01360",
@@ -998,7 +1150,9 @@
     "formatted_address": "432 College Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=17179414158925171686",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-11-2025",
+    "police_record_date": "April 11, 2025"
   },
   {
     "case_number": "25-01374",
@@ -1011,7 +1165,9 @@
     "formatted_address": "870 Boyce Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=6041414844738140766",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-11-2025",
+    "police_record_date": "April 11, 2025"
   },
   {
     "case_number": "25-01373",
@@ -1024,7 +1180,9 @@
     "formatted_address": "290 Lowell Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=526072340099231121",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-11-2025",
+    "police_record_date": "April 11, 2025"
   },
   {
     "case_number": "25-80247",
@@ -1037,7 +1195,9 @@
     "formatted_address": "340 University Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=4069877474299698672",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-11-2025",
+    "police_record_date": "April 11, 2025"
   },
   {
     "case_number": "25-80250",
@@ -1050,7 +1210,9 @@
     "formatted_address": "4211 Rickeys Way, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=14876440871252856438",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-11-2025",
+    "police_record_date": "April 11, 2025"
   },
   {
     "case_number": "25-80249",
@@ -1063,7 +1225,9 @@
     "formatted_address": "Lytton Ave & Bryant St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?q=Lytton+Ave+%26+Bryant+St,+Palo+Alto,+CA+94301,+USA&ftid=0x808fbb382c8316e9:0x2dd25110bf5b5f65",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "april-11-2025",
+    "police_record_date": "April 11, 2025"
   },
   {
     "case_number": "25-01383",
@@ -1076,7 +1240,9 @@
     "formatted_address": "16 Tulip Ln, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=1217298588599576432",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-11-2025",
+    "police_record_date": "April 11, 2025"
   },
   {
     "case_number": "25-80253",
@@ -1089,7 +1255,9 @@
     "formatted_address": "168 Waverley St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=5867117236813743730",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-11-2025",
+    "police_record_date": "April 11, 2025"
   },
   {
     "case_number": "25-01391",
@@ -1102,7 +1270,9 @@
     "formatted_address": "Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=15760438884227995216",
     "place_types": "bus_stop,transit_station,point_of_interest,establishment",
-    "location_interpretation": "specific_place"
+    "location_interpretation": "specific_place",
+    "police_record_date_str": "april-11-2025",
+    "police_record_date": "April 11, 2025"
   },
   {
     "case_number": "25-01394",
@@ -1115,7 +1285,9 @@
     "formatted_address": "275 Forest Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=95238810619628067",
     "place_types": "subpremise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-11-2025",
+    "police_record_date": "April 11, 2025"
   },
   {
     "case_number": "25-01397",
@@ -1128,7 +1300,9 @@
     "formatted_address": "Arastradero Rd, Palo Alto, CA, USA",
     "google_maps_uri": "https://maps.google.com/?q=Arastradero+Rd,+Palo+Alto,+CA,+USA&ftid=0x808fbaa6cffbbee9:0xef6ecc8c88d70b7a",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "april-11-2025",
+    "police_record_date": "April 11, 2025"
   },
   {
     "case_number": "25-01401",
@@ -1141,7 +1315,9 @@
     "formatted_address": "289 Davenport Way, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=15083609794891577360",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-11-2025",
+    "police_record_date": "April 11, 2025"
   },
   {
     "case_number": "25-01402",
@@ -1154,7 +1330,9 @@
     "formatted_address": "753 Alma St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=9841470199571918057",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-11-2025",
+    "police_record_date": "April 11, 2025"
   },
   {
     "case_number": "25-00991",
@@ -1167,7 +1345,9 @@
     "formatted_address": "1450 Oak Creek Dr, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=2295125569807821704",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-02-2025",
+    "police_record_date": "April 02, 2025"
   },
   {
     "case_number": "25-01124",
@@ -1180,7 +1360,9 @@
     "formatted_address": "180 El Camino Real, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10694182497936204464",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-02-2025",
+    "police_record_date": "April 02, 2025"
   },
   {
     "case_number": "25-01140",
@@ -1193,7 +1375,9 @@
     "formatted_address": "180 El Camino Real, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10694182497936204464",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-02-2025",
+    "police_record_date": "April 02, 2025"
   },
   {
     "case_number": "25-01158",
@@ -1206,7 +1390,9 @@
     "formatted_address": "Laguna Ct, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=16928786113877617486",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "april-02-2025",
+    "police_record_date": "April 02, 2025"
   },
   {
     "case_number": "25-01181",
@@ -1219,7 +1405,9 @@
     "formatted_address": "Sand Hill Rd & Pasteur Dr, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?q=Sand+Hill+Rd+%26+Pasteur+Dr,+Palo+Alto,+CA+94304,+USA&ftid=0x808fa4ce3ed6e4b9:0x94f501986a993c9b",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "april-02-2025",
+    "police_record_date": "April 02, 2025"
   },
   {
     "case_number": "25-80220",
@@ -1232,7 +1420,9 @@
     "formatted_address": "774 Emerson St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=706819191845704013",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-02-2025",
+    "police_record_date": "April 02, 2025"
   },
   {
     "case_number": "25-01239",
@@ -1245,7 +1435,9 @@
     "formatted_address": "Clark Way, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=9939966000044919678",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "april-02-2025",
+    "police_record_date": "April 02, 2025"
   },
   {
     "case_number": "25-01241",
@@ -1258,7 +1450,9 @@
     "formatted_address": "933 Oregon Ave, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=11182683364776641282",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-02-2025",
+    "police_record_date": "April 02, 2025"
   },
   {
     "case_number": "25-01244",
@@ -1271,7 +1465,9 @@
     "formatted_address": "2301 Ross Rd, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=17482029773136078763",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-02-2025",
+    "police_record_date": "April 02, 2025"
   },
   {
     "case_number": "25-01258",
@@ -1284,7 +1480,9 @@
     "formatted_address": "4000 Middlefield Rd, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=13577840906777621857",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-02-2025",
+    "police_record_date": "April 02, 2025"
   },
   {
     "case_number": "25-01245",
@@ -1297,7 +1495,9 @@
     "formatted_address": "3289 South Ct, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=12694987386754791132",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-02-2025",
+    "police_record_date": "April 02, 2025"
   },
   {
     "case_number": "25-01260",
@@ -1310,7 +1510,9 @@
     "formatted_address": "1410 Dana Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=3066620755893335512",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-02-2025",
+    "police_record_date": "April 02, 2025"
   },
   {
     "case_number": "25-01261",
@@ -1323,7 +1525,9 @@
     "formatted_address": "3440 Ramona St, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10499833453954314939",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-02-2025",
+    "police_record_date": "April 02, 2025"
   },
   {
     "case_number": "25-01265",
@@ -1336,7 +1540,9 @@
     "formatted_address": "4100 El Camino Real, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=2359497968606753386",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-02-2025",
+    "police_record_date": "April 02, 2025"
   },
   {
     "case_number": "25-80224",
@@ -1349,7 +1555,9 @@
     "formatted_address": "330 Edlee Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=17813421741731040280",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-02-2025",
+    "police_record_date": "April 02, 2025"
   },
   {
     "case_number": "25-80225",
@@ -1362,7 +1570,9 @@
     "formatted_address": "725 Welch Rd, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=3139734312749243292",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-02-2025",
+    "police_record_date": "April 02, 2025"
   },
   {
     "case_number": "25-01268",
@@ -1375,7 +1585,9 @@
     "formatted_address": "2468 W Bayshore Rd, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=3833665377858148712",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-02-2025",
+    "police_record_date": "April 02, 2025"
   },
   {
     "case_number": "25-01281",
@@ -1388,7 +1600,9 @@
     "formatted_address": "200 Pasteur Dr, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=13079998141728758955",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-02-2025",
+    "police_record_date": "April 02, 2025"
   },
   {
     "case_number": "25-01018",
@@ -1401,7 +1615,9 @@
     "formatted_address": "3922 Middlefield Rd, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10218850953901325291",
     "place_types": "subpremise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-01069",
@@ -1414,7 +1630,9 @@
     "formatted_address": "730 Moreno Ave, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=13877056119207412650",
     "place_types": "real_estate_agency,point_of_interest,establishment",
-    "location_interpretation": "specific_place"
+    "location_interpretation": "specific_place",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-01071",
@@ -1427,7 +1645,9 @@
     "formatted_address": "461 Ferne Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10630233141898087737",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-01074",
@@ -1440,7 +1660,9 @@
     "formatted_address": "3054 Stelling Dr, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=17892085202743765604",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-01087",
@@ -1453,7 +1675,9 @@
     "formatted_address": "Lytton Ave & Ramona St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?q=Lytton+Ave+%26+Ramona+St,+Palo+Alto,+CA+94301,+USA&ftid=0x808fbb377c27b449:0xef611ef3fbab5aed",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-01088",
@@ -1466,7 +1690,9 @@
     "formatted_address": "431 Emerson St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?q=431+Emerson+St,+Palo+Alto,+CA+94301,+USA&ftid=0x808fbb3766e306ed:0x4d6a52da6fc726ac",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-01091",
@@ -1479,7 +1705,9 @@
     "formatted_address": "1700 Embarcadero Rd, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=3296326334424451493",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-01100",
@@ -1492,7 +1720,9 @@
     "formatted_address": "325 Channing Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=17271296085075920389",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-01112",
@@ -1505,7 +1735,9 @@
     "formatted_address": "275 Forest Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=95238810619628067",
     "place_types": "subpremise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-80200",
@@ -1518,7 +1750,9 @@
     "formatted_address": "50 Embarcadero Rd, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=2486590626818643138",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-01125",
@@ -1531,7 +1765,9 @@
     "formatted_address": "Pasteur Dr, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=6169494416735882827",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-80202",
@@ -1544,7 +1780,9 @@
     "formatted_address": "520 Webster St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=3663014616781112621",
     "place_types": "subpremise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-01129",
@@ -1557,7 +1795,9 @@
     "formatted_address": "445 Bryant St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=1487843547148381158",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-01130",
@@ -1570,7 +1810,9 @@
     "formatted_address": "432 High St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=9329736429663509788",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-01132",
@@ -1583,7 +1825,9 @@
     "formatted_address": "180 El Camino Real, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10694182497936204464",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-01133",
@@ -1596,7 +1840,9 @@
     "formatted_address": "180 El Camino Real, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10694182497936204464",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-01136",
@@ -1609,7 +1855,9 @@
     "formatted_address": "180 El Camino Real, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10694182497936204464",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-01138",
@@ -1622,7 +1870,9 @@
     "formatted_address": "275 Forest Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=95238810619628067",
     "place_types": "subpremise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-01139",
@@ -1635,7 +1885,9 @@
     "formatted_address": "3941 El Camino Real, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=15812873170605210852",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-01142",
@@ -1648,7 +1900,9 @@
     "formatted_address": "456 University Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=2321285137609900392",
     "place_types": "subpremise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-01143",
@@ -1661,7 +1915,9 @@
     "formatted_address": "101 Alma St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=17547375108891140604",
     "place_types": "condominium_complex,point_of_interest,establishment",
-    "location_interpretation": "specific_place"
+    "location_interpretation": "specific_place",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-01144",
@@ -1674,7 +1930,9 @@
     "formatted_address": "Welch Rd, Palo Alto, CA, USA",
     "google_maps_uri": "https://maps.google.com/?q=Welch+Rd,+Palo+Alto,+CA,+USA&ftid=0x808fa4d2c14cc1bd:0x686b8edefe119f33",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-01145",
@@ -1687,7 +1945,9 @@
     "formatted_address": "E Charleston Rd & San Antonio Rd, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?q=E+Charleston+Rd+%26+San+Antonio+Rd,+Palo+Alto,+CA+94303,+USA&ftid=0x808fba1233145545:0x8470b64a58b2d577",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-01148",
@@ -1700,7 +1960,9 @@
     "formatted_address": "Faber Pl & Embarcadero Rd, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?q=Faber+Pl+%26+Embarcadero+Rd,+Palo+Alto,+CA+94303,+USA&ftid=0x808fbbb02e88c601:0xe6b94c8b43df247f",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-80199",
@@ -1713,7 +1975,9 @@
     "formatted_address": "1510 Oak Creek Dr, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=6296854961067232087",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-80201",
@@ -1726,7 +1990,9 @@
     "formatted_address": "1085 University Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=15206389508195436014",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-01152",
@@ -1739,7 +2005,9 @@
     "formatted_address": "Manuela Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=9592155113823386371",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-01154",
@@ -1752,7 +2020,9 @@
     "formatted_address": "Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=3839466064336225447",
     "place_types": "bus_stop,transit_station,point_of_interest,establishment",
-    "location_interpretation": "specific_place"
+    "location_interpretation": "specific_place",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-01155",
@@ -1765,7 +2035,9 @@
     "formatted_address": "3223 Hanover St, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=12097414338835181698",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-01161",
@@ -1778,7 +2050,9 @@
     "formatted_address": "El Camino Real & Embarcadero Rd, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?q=El+Camino+Real+%26+Embarcadero+Rd,+Palo+Alto,+CA+94306,+USA&ftid=0x808fbb2451e36ec1:0xfae160bd3cafc1b",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-80203",
@@ -1791,7 +2065,9 @@
     "formatted_address": "3233 Hanover St, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?q=3233+Hanover+St,+Palo+Alto,+CA+94304,+USA&ftid=0x808fba93e4012847:0x3d136cc54ae76b5e",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-80204",
@@ -1804,7 +2080,9 @@
     "formatted_address": "3085 E Bayshore Rd, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=12800891811103477375",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-01166",
@@ -1817,7 +2095,9 @@
     "formatted_address": "Sand Hill Rd & El Camino Real, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?q=Sand+Hill+Rd+%26+El+Camino+Real,+Palo+Alto,+CA+94304,+USA&ftid=0x808fbb3588ed2083:0xacdcefffd745805",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-01169",
@@ -1830,7 +2110,9 @@
     "formatted_address": "1800 El Camino Real, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?q=1800+El+Camino+Real,+Palo+Alto,+CA+94306,+USA&ftid=0x808fbae0b6bb24bf:0x5727e0cae3627a4c",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-80205",
@@ -1843,7 +2125,9 @@
     "formatted_address": "701 Emerson St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=2813238522468909561",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-80206",
@@ -1856,7 +2140,9 @@
     "formatted_address": "4129 El Camino Way, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=774006494078161656",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-80207",
@@ -1869,7 +2155,9 @@
     "formatted_address": "206 Ramona St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10368482174557741375",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-01171",
@@ -1882,7 +2170,9 @@
     "formatted_address": "180 El Camino Real, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10694182497936204464",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-01173",
@@ -1895,7 +2185,9 @@
     "formatted_address": "845 Ramona St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=12842435311134784521",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-24-2025",
+    "police_record_date": "March 24, 2025"
   },
   {
     "case_number": "25-01301",
@@ -1908,7 +2200,9 @@
     "formatted_address": "275 Forest Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=95238810619628067",
     "place_types": "subpremise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-14-2025",
+    "police_record_date": "April 14, 2025"
   },
   {
     "case_number": "25-01325",
@@ -1921,7 +2215,9 @@
     "formatted_address": "Newell Rd & Embarcadero Rd, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?q=Newell+Rd+%26+Embarcadero+Rd,+Palo+Alto,+CA+94303,+USA&ftid=0x808fbb04c5e10d37:0x59adaca885c7db6d",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "april-14-2025",
+    "police_record_date": "April 14, 2025"
   },
   {
     "case_number": "25-01339",
@@ -1934,7 +2230,9 @@
     "formatted_address": "220 Hamilton Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=12403082246926528248",
     "place_types": "subpremise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-14-2025",
+    "police_record_date": "April 14, 2025"
   },
   {
     "case_number": "25-80251",
@@ -1947,7 +2245,9 @@
     "formatted_address": "461 Florence St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=7552541030555841600",
     "place_types": "subpremise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-14-2025",
+    "police_record_date": "April 14, 2025"
   },
   {
     "case_number": "25-80252",
@@ -1960,7 +2260,9 @@
     "formatted_address": "256 Lytton Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=1987857654895880064",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-14-2025",
+    "police_record_date": "April 14, 2025"
   },
   {
     "case_number": "25-01382",
@@ -1973,7 +2275,9 @@
     "formatted_address": "180 El Camino Real, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10694182497936204464",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-14-2025",
+    "police_record_date": "April 14, 2025"
   },
   {
     "case_number": "25-01398",
@@ -1986,7 +2290,9 @@
     "formatted_address": "Ramona St, Palo Alto, CA, USA",
     "google_maps_uri": "https://maps.google.com/?cid=5572216371429712206",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "april-14-2025",
+    "police_record_date": "April 14, 2025"
   },
   {
     "case_number": "25-01400",
@@ -1999,7 +2305,9 @@
     "formatted_address": "250 Hamilton Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=8504657287920517765",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-14-2025",
+    "police_record_date": "April 14, 2025"
   },
   {
     "case_number": "25-01408",
@@ -2012,7 +2320,9 @@
     "formatted_address": "180 El Camino Real, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10694182497936204464",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-14-2025",
+    "police_record_date": "April 14, 2025"
   },
   {
     "case_number": "25-00940",
@@ -2025,7 +2335,9 @@
     "formatted_address": "Arastradero Rd, Palo Alto, CA, USA",
     "google_maps_uri": "https://maps.google.com/?q=Arastradero+Rd,+Palo+Alto,+CA,+USA&ftid=0x808fbaa6cffbbee9:0xef6ecc8c88d70b7a",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "march-21-2025",
+    "police_record_date": "March 21, 2025"
   },
   {
     "case_number": "25-80175",
@@ -2038,7 +2350,9 @@
     "formatted_address": "1921 El Camino Real, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=5133213347219509035",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-21-2025",
+    "police_record_date": "March 21, 2025"
   },
   {
     "case_number": "25-01044",
@@ -2051,7 +2365,9 @@
     "formatted_address": "471 Emerson St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=12977823477941061904",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-21-2025",
+    "police_record_date": "March 21, 2025"
   },
   {
     "case_number": "25-01039",
@@ -2064,7 +2380,9 @@
     "formatted_address": "2600 El Camino Real, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=16238502486760643174",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-21-2025",
+    "police_record_date": "March 21, 2025"
   },
   {
     "case_number": "25-01051",
@@ -2077,7 +2395,9 @@
     "formatted_address": "3085 Middlefield Rd, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=12043157092238745542",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-21-2025",
+    "police_record_date": "March 21, 2025"
   },
   {
     "case_number": "25-01053",
@@ -2090,7 +2410,9 @@
     "formatted_address": "795 El Camino Real, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=4676582163312546220",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-21-2025",
+    "police_record_date": "March 21, 2025"
   },
   {
     "case_number": "25-01066",
@@ -2103,7 +2425,9 @@
     "formatted_address": "1742 Sand Hill Rd, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=3878894862839366975",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-21-2025",
+    "police_record_date": "March 21, 2025"
   },
   {
     "case_number": "25-01068",
@@ -2116,7 +2440,9 @@
     "formatted_address": "1530 Arastradero Rd, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=1133413590713193401",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-21-2025",
+    "police_record_date": "March 21, 2025"
   },
   {
     "case_number": "25-80190",
@@ -2129,7 +2455,9 @@
     "formatted_address": "2361 Wellesley St, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=8982552679386175945",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-21-2025",
+    "police_record_date": "March 21, 2025"
   },
   {
     "case_number": "25-80191",
@@ -2142,7 +2470,9 @@
     "formatted_address": "701 Marion Ave, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=15153411743222298283",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-21-2025",
+    "police_record_date": "March 21, 2025"
   },
   {
     "case_number": "25-80192",
@@ -2155,7 +2485,9 @@
     "formatted_address": "1704 Oak Creek Dr, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=5033725491336461742",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-21-2025",
+    "police_record_date": "March 21, 2025"
   },
   {
     "case_number": "25-01075",
@@ -2168,7 +2500,9 @@
     "formatted_address": "705 Clark Way, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=5866749253530657252",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-21-2025",
+    "police_record_date": "March 21, 2025"
   },
   {
     "case_number": "25-01081",
@@ -2181,7 +2515,9 @@
     "formatted_address": "3029 Price Ct, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=14975796161001201729",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-21-2025",
+    "police_record_date": "March 21, 2025"
   },
   {
     "case_number": "25-80198",
@@ -2194,7 +2530,9 @@
     "formatted_address": "2577 Park Blvd, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=1978897224811144185",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-21-2025",
+    "police_record_date": "March 21, 2025"
   },
   {
     "case_number": "25-01085",
@@ -2207,7 +2545,9 @@
     "formatted_address": "460 Emerson St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=4229964349656369782",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-21-2025",
+    "police_record_date": "March 21, 2025"
   },
   {
     "case_number": "25-80196",
@@ -2220,7 +2560,9 @@
     "formatted_address": "Channing Ave & High St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?q=Channing+Ave+%26+High+St,+Palo+Alto,+CA+94301,+USA&ftid=0x808fbb3b4dbaf329:0xac0872bc9565019d",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "march-21-2025",
+    "police_record_date": "March 21, 2025"
   },
   {
     "case_number": "25-01086",
@@ -2233,7 +2575,9 @@
     "formatted_address": "350 Sherman Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=7159047760392030236",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-21-2025",
+    "police_record_date": "March 21, 2025"
   },
   {
     "case_number": "25-80195",
@@ -2246,7 +2590,9 @@
     "formatted_address": "245 Lytton Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=5717819952574352829",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-21-2025",
+    "police_record_date": "March 21, 2025"
   },
   {
     "case_number": "25-01090",
@@ -2259,7 +2605,9 @@
     "formatted_address": "1101 Embarcadero Rd, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10435644570050155248",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-21-2025",
+    "police_record_date": "March 21, 2025"
   },
   {
     "case_number": "25-01092",
@@ -2272,7 +2620,9 @@
     "formatted_address": "530 Cowper St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?q=530+Cowper+St,+Palo+Alto,+CA+94301,+USA&ftid=0x808fbb38d8b55845:0xf7a198107b1361ce",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-21-2025",
+    "police_record_date": "March 21, 2025"
   },
   {
     "case_number": "25-01094",
@@ -2285,7 +2635,9 @@
     "formatted_address": "220 Portage Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=9312008704556755318",
     "place_types": "subpremise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-21-2025",
+    "police_record_date": "March 21, 2025"
   },
   {
     "case_number": "25-01098",
@@ -2298,7 +2650,9 @@
     "formatted_address": "722 Marion Ave, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=17016512975962504640",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-21-2025",
+    "police_record_date": "March 21, 2025"
   },
   {
     "case_number": "25-01096",
@@ -2311,7 +2665,9 @@
     "formatted_address": "Edgewood Dr & Newell Rd, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?q=Edgewood+Dr+%26+Newell+Rd,+Palo+Alto,+CA+94301,+USA&ftid=0x808fbb0c4f982ad7:0x23e7d523b4182df9",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "march-21-2025",
+    "police_record_date": "March 21, 2025"
   },
   {
     "case_number": "25-01101",
@@ -2324,7 +2680,9 @@
     "formatted_address": "255 Davenport Way, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=18034927019441357130",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-21-2025",
+    "police_record_date": "March 21, 2025"
   },
   {
     "case_number": "25-01102",
@@ -2337,7 +2695,9 @@
     "formatted_address": "3445 Alma St, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=990072780976338421",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-21-2025",
+    "police_record_date": "March 21, 2025"
   },
   {
     "case_number": "25-01105",
@@ -2350,7 +2710,9 @@
     "formatted_address": "445 Bryant St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=1487843547148381158",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-21-2025",
+    "police_record_date": "March 21, 2025"
   },
   {
     "case_number": "25-01109",
@@ -2363,7 +2725,9 @@
     "formatted_address": "180 El Camino Real, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10694182497936204464",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-21-2025",
+    "police_record_date": "March 21, 2025"
   },
   {
     "case_number": "25-01115",
@@ -2376,7 +2740,9 @@
     "formatted_address": "4103 Scripps Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=11043157293047042383",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-21-2025",
+    "police_record_date": "March 21, 2025"
   },
   {
     "case_number": "25-01117",
@@ -2389,7 +2755,9 @@
     "formatted_address": "4291 El Camino Real, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=13337595613659119840",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-21-2025",
+    "police_record_date": "March 21, 2025"
   },
   {
     "case_number": "25-01118",
@@ -2402,7 +2770,9 @@
     "formatted_address": "275 Forest Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=95238810619628067",
     "place_types": "subpremise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-21-2025",
+    "police_record_date": "March 21, 2025"
   },
   {
     "case_number": "25-01121",
@@ -2415,7 +2785,9 @@
     "formatted_address": "275 Forest Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=95238810619628067",
     "place_types": "subpremise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-21-2025",
+    "police_record_date": "March 21, 2025"
   },
   {
     "case_number": "25-01123",
@@ -2428,7 +2800,9 @@
     "formatted_address": "Watson Ct, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=14721436466824168802",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "march-21-2025",
+    "police_record_date": "March 21, 2025"
   },
   {
     "case_number": "25-01127",
@@ -2441,7 +2815,9 @@
     "formatted_address": "Ramona St, Palo Alto, CA, USA",
     "google_maps_uri": "https://maps.google.com/?cid=5572216371429712206",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "march-21-2025",
+    "police_record_date": "March 21, 2025"
   },
   {
     "case_number": "25-01174",
@@ -2454,7 +2830,9 @@
     "formatted_address": "Bryant St & Hamilton Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?q=Bryant+St+%26+Hamilton+Ave,+Palo+Alto,+CA+94301,+USA&ftid=0x808fbb397f9dedb3:0xa17bc1d8bcd06204",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01180",
@@ -2467,7 +2845,9 @@
     "formatted_address": "899 E Charleston Rd, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10541960684929834702",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01213",
@@ -2480,7 +2860,9 @@
     "formatted_address": "200 University Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=14195623155327218602",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01230",
@@ -2493,7 +2875,9 @@
     "formatted_address": "800 Emerson St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10429330485904332394",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01240",
@@ -2506,7 +2890,9 @@
     "formatted_address": "758 Barron Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=11078469508970411412",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01247",
@@ -2519,7 +2905,9 @@
     "formatted_address": "Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=13785117560433563486",
     "place_types": "bus_stop,transit_station,point_of_interest,establishment",
-    "location_interpretation": "specific_place"
+    "location_interpretation": "specific_place",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01251",
@@ -2532,7 +2920,9 @@
     "formatted_address": "1805 E Bayshore Rd # 100, East Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=16700829852346721852",
     "place_types": "apartment_complex,point_of_interest,establishment",
-    "location_interpretation": "specific_place"
+    "location_interpretation": "specific_place",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01263",
@@ -2545,7 +2935,9 @@
     "formatted_address": "Stanford Ave & Wellesley St, Stanford, CA 94305, USA",
     "google_maps_uri": "https://maps.google.com/?q=Stanford+Ave+%26+Wellesley+St,+Stanford,+CA+94305,+USA&ftid=0x808fbae78b2b6a67:0xae9006fc3b86c5b2",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01269",
@@ -2558,7 +2950,9 @@
     "formatted_address": "423 Alma St, Menlo Park, CA 94025, USA",
     "google_maps_uri": "https://maps.google.com/?q=423+Alma+St,+Menlo+Park,+CA+94025,+USA&ftid=0x808fa4b345785f41:0xc5fc29fd23f78918",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01272",
@@ -2571,7 +2965,9 @@
     "formatted_address": "180 El Camino Real, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10694182497936204464",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01277",
@@ -2584,7 +2980,9 @@
     "formatted_address": "N California Ave & Alma St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?q=N+California+Ave+%26+Alma+St,+Palo+Alto,+CA+94301,+USA&ftid=0x808fbae4e849aa23:0xfabb5271b564b5ba",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01278",
@@ -2597,7 +2995,9 @@
     "formatted_address": "El Camino Real & Embarcadero Rd, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?q=El+Camino+Real+%26+Embarcadero+Rd,+Palo+Alto,+CA+94306,+USA&ftid=0x808fbb2451e36ec1:0xfae160bd3cafc1b",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01280",
@@ -2610,7 +3010,9 @@
     "formatted_address": "E Charleston Rd & Alma St, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?q=E+Charleston+Rd+%26+Alma+St,+Palo+Alto,+CA+94306,+USA&ftid=0x808fba65518a94fd:0x85f5f8408949eb15",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01282",
@@ -2623,7 +3025,9 @@
     "formatted_address": "2721 Midtown Ct, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=12995483076315022779",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01284",
@@ -2636,7 +3040,9 @@
     "formatted_address": "4260 Terman Dr, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=12159087465606217991",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01286",
@@ -2649,7 +3055,9 @@
     "formatted_address": "423 Alma St, Menlo Park, CA 94025, USA",
     "google_maps_uri": "https://maps.google.com/?q=423+Alma+St,+Menlo+Park,+CA+94025,+USA&ftid=0x808fa4b345785f41:0xc5fc29fd23f78918",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01290",
@@ -2662,7 +3070,9 @@
     "formatted_address": "901 Hutchinson Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=4148694131816349605",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01291",
@@ -2675,7 +3085,9 @@
     "formatted_address": "400 Ramona St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=15503136705057444658",
     "place_types": "subpremise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01294",
@@ -2688,7 +3100,9 @@
     "formatted_address": "649 University Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=11343332547593014754",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01296",
@@ -2701,7 +3115,9 @@
     "formatted_address": "3000 Hanover St, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10657736251422685783",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01300",
@@ -2714,7 +3130,9 @@
     "formatted_address": "Junipero Serra Blvd & Page Mill Rd, California 94304, USA",
     "google_maps_uri": "https://maps.google.com/?q=Junipero+Serra+Blvd+%26+Page+Mill+Rd,+California+94304,+USA&ftid=0x808fbabc4398f309:0x5c497d0e63b000fb",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01303",
@@ -2727,7 +3145,9 @@
     "formatted_address": "441 Matadero Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=11181612880990212352",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01304",
@@ -2740,7 +3160,9 @@
     "formatted_address": "180 El Camino Real, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10694182497936204464",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01306",
@@ -2753,7 +3175,9 @@
     "formatted_address": "2000 E Bayshore Rd, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?q=2000+E+Bayshore+Rd,+Palo+Alto,+CA+94303,+USA&ftid=0x808fbba7ad5e431d:0x733ebcdd2e8dc12",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01310",
@@ -2766,7 +3190,9 @@
     "formatted_address": "Greer Rd, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=4353979339181900358",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01311",
@@ -2779,7 +3205,9 @@
     "formatted_address": "2350 Birch St, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?q=2350+Birch+St,+Palo+Alto,+CA+94306,+USA&ftid=0x808fbae5b7214d77:0xa97265441ad27b47",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01313",
@@ -2792,7 +3220,9 @@
     "formatted_address": "391 Cambridge Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?q=391+Cambridge+Ave,+Palo+Alto,+CA+94306,+USA&ftid=0x808fbae5c5642c51:0x80e6979bc861d08b",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01314",
@@ -2805,7 +3235,9 @@
     "formatted_address": "200 Hamilton Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=8622315635495800425",
     "place_types": "subpremise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01315",
@@ -2818,7 +3250,9 @@
     "formatted_address": "391 Cambridge Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?q=391+Cambridge+Ave,+Palo+Alto,+CA+94306,+USA&ftid=0x808fbae5c5642c51:0x80e6979bc861d08b",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01316",
@@ -2831,7 +3265,9 @@
     "formatted_address": "391 Cambridge Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?q=391+Cambridge+Ave,+Palo+Alto,+CA+94306,+USA&ftid=0x808fbae5c5642c51:0x80e6979bc861d08b",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-80240",
@@ -2844,7 +3280,9 @@
     "formatted_address": "Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=18065327201607963985",
     "place_types": "bus_stop,transit_station,point_of_interest,establishment",
-    "location_interpretation": "specific_place"
+    "location_interpretation": "specific_place",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01327",
@@ -2857,7 +3295,9 @@
     "formatted_address": "300 Bradford St, Redwood City, CA 94063, USA",
     "google_maps_uri": "https://maps.google.com/?cid=11820836905712771281",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01330",
@@ -2870,7 +3310,9 @@
     "formatted_address": "Middlefield Rd, Palo Alto, CA, USA",
     "google_maps_uri": "https://maps.google.com/?q=Middlefield+Rd,+Palo+Alto,+CA,+USA&ftid=0x808fa35b186a39fb:0x5984eee2a66a9cc2",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01331",
@@ -2883,7 +3325,9 @@
     "formatted_address": "445 Bryant St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=1487843547148381158",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-80237",
@@ -2896,7 +3340,9 @@
     "formatted_address": "895 Commercial St, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=2488060281340943517",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-80238",
@@ -2909,7 +3355,9 @@
     "formatted_address": "Birch St & California Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?q=Birch+St+%26+California+Ave,+Palo+Alto,+CA+94306,+USA&ftid=0x808fbae5a35ff0d3:0x19ec134773a8a236",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-80239",
@@ -2922,7 +3370,9 @@
     "formatted_address": "3478 Kenneth Dr, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=17666554977374286980",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01338",
@@ -2935,7 +3385,9 @@
     "formatted_address": "El Camino Real, Palo Alto, CA, USA",
     "google_maps_uri": "https://maps.google.com/?q=El+Camino+Real,+Palo+Alto,+CA,+USA&ftid=0x808fcb0b782c489d:0x380db039ff6cae75",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "april-07-2025",
+    "police_record_date": "April 07, 2025"
   },
   {
     "case_number": "25-01287",
@@ -2948,7 +3400,9 @@
     "formatted_address": "2170 W Bayshore Rd, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=300227103122615881",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-08-2025",
+    "police_record_date": "April 08, 2025"
   },
   {
     "case_number": "25-01293",
@@ -2961,7 +3415,9 @@
     "formatted_address": "630 Donohoe St, East Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=6589792727185197497",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-08-2025",
+    "police_record_date": "April 08, 2025"
   },
   {
     "case_number": "25-01293",
@@ -2974,7 +3430,9 @@
     "formatted_address": "630 Donohoe St, East Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=6589792727185197497",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-08-2025",
+    "police_record_date": "April 08, 2025"
   },
   {
     "case_number": "25-01293",
@@ -2987,7 +3445,9 @@
     "formatted_address": "630 Donohoe St, East Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=6589792727185197497",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-08-2025",
+    "police_record_date": "April 08, 2025"
   },
   {
     "case_number": "25-01293",
@@ -3000,7 +3460,9 @@
     "formatted_address": "630 Donohoe St, East Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=6589792727185197497",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-08-2025",
+    "police_record_date": "April 08, 2025"
   },
   {
     "case_number": "25-01298",
@@ -3013,7 +3475,9 @@
     "formatted_address": "E Bayshore Rd & Embarcadero Rd, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?q=E+Bayshore+Rd+%26+Embarcadero+Rd,+Palo+Alto,+CA+94303,+USA&ftid=0x808fbbae4ee9b84f:0x34d3fa6f1f0b0920",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "april-08-2025",
+    "police_record_date": "April 08, 2025"
   },
   {
     "case_number": "25-01335",
@@ -3026,7 +3490,9 @@
     "formatted_address": "Bldg T6, 3801 Miranda Ave, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=2356658483802008728",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-08-2025",
+    "police_record_date": "April 08, 2025"
   },
   {
     "case_number": "25-01350",
@@ -3039,7 +3505,9 @@
     "formatted_address": "Cowper St & Hamilton Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?q=Cowper+St+%26+Hamilton+Ave,+Palo+Alto,+CA+94301,+USA&ftid=0x808fbb392e0e2035:0xdd7ae11b0603796",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "april-08-2025",
+    "police_record_date": "April 08, 2025"
   },
   {
     "case_number": "25-01353",
@@ -3052,7 +3520,9 @@
     "formatted_address": "200 University Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=14195623155327218602",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-08-2025",
+    "police_record_date": "April 08, 2025"
   },
   {
     "case_number": "25-01354",
@@ -3065,7 +3535,9 @@
     "formatted_address": "95 University Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=3689665010728101625",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-08-2025",
+    "police_record_date": "April 08, 2025"
   },
   {
     "case_number": "25-01355",
@@ -3078,7 +3550,9 @@
     "formatted_address": "250 Hamilton Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=8504657287920517765",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-08-2025",
+    "police_record_date": "April 08, 2025"
   },
   {
     "case_number": "25-01358",
@@ -3091,7 +3565,9 @@
     "formatted_address": "400 University Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=8093713334360921479",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-08-2025",
+    "police_record_date": "April 08, 2025"
   },
   {
     "case_number": "25-01359",
@@ -3104,7 +3580,9 @@
     "formatted_address": "300 Bradford St, Redwood City, CA 94063, USA",
     "google_maps_uri": "https://maps.google.com/?cid=11820836905712771281",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-08-2025",
+    "police_record_date": "April 08, 2025"
   },
   {
     "case_number": "25-01366",
@@ -3117,7 +3595,9 @@
     "formatted_address": "Park Blvd, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=11205841697816294989",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "april-08-2025",
+    "police_record_date": "April 08, 2025"
   },
   {
     "case_number": "25-00832",
@@ -3130,7 +3610,9 @@
     "formatted_address": "926 Ramona St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=7685895106322937322",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-04-2025",
+    "police_record_date": "April 04, 2025"
   },
   {
     "case_number": "25-01082",
@@ -3143,7 +3625,9 @@
     "formatted_address": "2300 Bryant St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?q=2300+Bryant+St,+Palo+Alto,+CA+94301,+USA&ftid=0x808fbafb687cb89f:0x21a9da617c22a6b4",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-04-2025",
+    "police_record_date": "April 04, 2025"
   },
   {
     "case_number": "25-01108",
@@ -3156,7 +3640,9 @@
     "formatted_address": "2100 Webster St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?q=2100+Webster+St,+Palo+Alto,+CA+94301,+USA&ftid=0x808fbafd9e8525ef:0x6fbe6401d07bd261",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-04-2025",
+    "police_record_date": "April 04, 2025"
   },
   {
     "case_number": "25-01149",
@@ -3169,7 +3655,9 @@
     "formatted_address": "E Charleston Rd & Alma St, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?q=E+Charleston+Rd+%26+Alma+St,+Palo+Alto,+CA+94306,+USA&ftid=0x808fba65518a94fd:0x85f5f8408949eb15",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "april-04-2025",
+    "police_record_date": "April 04, 2025"
   },
   {
     "case_number": "25-01214",
@@ -3182,7 +3670,9 @@
     "formatted_address": "3900 Alma St, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?q=3900+Alma+St,+Palo+Alto,+CA+94306,+USA&ftid=0x808fba705bcf649b:0xa6cdbc5f3c460da7",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-04-2025",
+    "police_record_date": "April 04, 2025"
   },
   {
     "case_number": "25-80226",
@@ -3195,7 +3685,9 @@
     "formatted_address": "328 Middlefield Rd, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=12287128104588453728",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-04-2025",
+    "police_record_date": "April 04, 2025"
   },
   {
     "case_number": "25-80227",
@@ -3208,7 +3700,9 @@
     "formatted_address": "4180 El Camino Real, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=3203124993806327495",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-04-2025",
+    "police_record_date": "April 04, 2025"
   },
   {
     "case_number": "25-80229",
@@ -3221,7 +3715,9 @@
     "formatted_address": "200 Pasteur Dr, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=13079998141728758955",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-04-2025",
+    "police_record_date": "April 04, 2025"
   },
   {
     "case_number": "25-80230",
@@ -3234,7 +3730,9 @@
     "formatted_address": "855 El Camino Real, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=11118077703284017645",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-04-2025",
+    "police_record_date": "April 04, 2025"
   },
   {
     "case_number": "25-80231",
@@ -3247,7 +3745,9 @@
     "formatted_address": "4001 Miranda Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=1530696373888283326",
     "place_types": "corporate_office,point_of_interest,establishment",
-    "location_interpretation": "specific_place"
+    "location_interpretation": "specific_place",
+    "police_record_date_str": "april-04-2025",
+    "police_record_date": "April 04, 2025"
   },
   {
     "case_number": "25-80234",
@@ -3260,7 +3760,9 @@
     "formatted_address": "Waverley St & Embarcadero Rd, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?q=Waverley+St+%26+Embarcadero+Rd,+Palo+Alto,+CA+94301,+USA&ftid=0x808fbb18e502738d:0x75b47cf491060644",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "april-04-2025",
+    "police_record_date": "April 04, 2025"
   },
   {
     "case_number": "25-80233",
@@ -3273,7 +3775,9 @@
     "formatted_address": "1303 Waverley St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=6210594093426423022",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-04-2025",
+    "police_record_date": "April 04, 2025"
   },
   {
     "case_number": "25-01295",
@@ -3286,7 +3790,9 @@
     "formatted_address": "129 Emerson St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=9566630692307204396",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-04-2025",
+    "police_record_date": "April 04, 2025"
   },
   {
     "case_number": "25-80232",
@@ -3299,7 +3805,9 @@
     "formatted_address": "11 Morton Way, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=2609404526639567311",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-04-2025",
+    "police_record_date": "April 04, 2025"
   },
   {
     "case_number": "25-80235",
@@ -3312,7 +3820,9 @@
     "formatted_address": "3785 Middlefield Rd, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=5215496821241220883",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-04-2025",
+    "police_record_date": "April 04, 2025"
   },
   {
     "case_number": "25-01307",
@@ -3325,7 +3835,9 @@
     "formatted_address": "43 Tulip Ln, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=8331184327000938882",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-04-2025",
+    "police_record_date": "April 04, 2025"
   },
   {
     "case_number": "25-01308",
@@ -3338,7 +3850,9 @@
     "formatted_address": "180 El Camino Real, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10694182497936204464",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-04-2025",
+    "police_record_date": "April 04, 2025"
   },
   {
     "case_number": "25-01319",
@@ -3351,7 +3865,9 @@
     "formatted_address": "Middlefield Rd, Palo Alto, CA, USA",
     "google_maps_uri": "https://maps.google.com/?q=Middlefield+Rd,+Palo+Alto,+CA,+USA&ftid=0x808fa35b186a39fb:0x5984eee2a66a9cc2",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "april-04-2025",
+    "police_record_date": "April 04, 2025"
   },
   {
     "case_number": "25-01318",
@@ -3364,7 +3880,9 @@
     "formatted_address": "528 High St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=18041740550203445373",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-04-2025",
+    "police_record_date": "April 04, 2025"
   },
   {
     "case_number": "25-80236",
@@ -3377,7 +3895,9 @@
     "formatted_address": "561 High St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=9347524675249978037",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-04-2025",
+    "police_record_date": "April 04, 2025"
   },
   {
     "case_number": "25-01322",
@@ -3390,7 +3910,9 @@
     "formatted_address": "Pasteur Dr, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=6169494416735882827",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "april-04-2025",
+    "police_record_date": "April 04, 2025"
   },
   {
     "case_number": "25-01326",
@@ -3403,7 +3925,9 @@
     "formatted_address": "310 Ventura Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=16109114621345814323",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-04-2025",
+    "police_record_date": "April 04, 2025"
   },
   {
     "case_number": "25-01443",
@@ -3416,7 +3940,9 @@
     "formatted_address": "Cowper St, Palo Alto, CA, USA",
     "google_maps_uri": "https://maps.google.com/?cid=3072176159378449215",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "april-18-2025",
+    "police_record_date": "April 18, 2025"
   },
   {
     "case_number": "25-01445",
@@ -3429,7 +3955,9 @@
     "formatted_address": "Channing Ave & Melville Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?q=Channing+Ave+%26+Melville+Ave,+Palo+Alto,+CA+94301,+USA&ftid=0x808fbb16acf64b3f:0xbee9b4ab238b0cc9",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "april-18-2025",
+    "police_record_date": "April 18, 2025"
   },
   {
     "case_number": "25-01446",
@@ -3442,7 +3970,9 @@
     "formatted_address": "El Camino Real, Palo Alto, CA, USA",
     "google_maps_uri": "https://maps.google.com/?q=El+Camino+Real,+Palo+Alto,+CA,+USA&ftid=0x808fcb0b782c489d:0x380db039ff6cae75",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "april-18-2025",
+    "police_record_date": "April 18, 2025"
   },
   {
     "case_number": "25-80266",
@@ -3455,7 +3985,9 @@
     "formatted_address": "1004 Emerson St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=3771266971571700389",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-18-2025",
+    "police_record_date": "April 18, 2025"
   },
   {
     "case_number": "25-01486",
@@ -3468,7 +4000,9 @@
     "formatted_address": "275 Forest Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=95238810619628067",
     "place_types": "subpremise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-18-2025",
+    "police_record_date": "April 18, 2025"
   },
   {
     "case_number": "25-00887",
@@ -3481,7 +4015,9 @@
     "formatted_address": "275 Forest Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=95238810619628067",
     "place_types": "subpremise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-26-2025",
+    "police_record_date": "March 26, 2025"
   },
   {
     "case_number": "25-01020",
@@ -3494,7 +4030,9 @@
     "formatted_address": "310 Ventura Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=16109114621345814323",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-26-2025",
+    "police_record_date": "March 26, 2025"
   },
   {
     "case_number": "25-01042",
@@ -3507,7 +4045,9 @@
     "formatted_address": "University Ave, Palo Alto, CA, USA",
     "google_maps_uri": "https://maps.google.com/?q=University+Ave,+Palo+Alto,+CA,+USA&ftid=0x808fbb5d829dcead:0x75cf5556243ef768",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "march-26-2025",
+    "police_record_date": "March 26, 2025"
   },
   {
     "case_number": "25-01083",
@@ -3520,7 +4060,9 @@
     "formatted_address": "2380 High St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=12717503040063460410",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-26-2025",
+    "police_record_date": "March 26, 2025"
   },
   {
     "case_number": "25-01177",
@@ -3533,7 +4075,9 @@
     "formatted_address": "423 Alma St, Menlo Park, CA 94025, USA",
     "google_maps_uri": "https://maps.google.com/?q=423+Alma+St,+Menlo+Park,+CA+94025,+USA&ftid=0x808fa4b345785f41:0xc5fc29fd23f78918",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-26-2025",
+    "police_record_date": "March 26, 2025"
   },
   {
     "case_number": "25-01119",
@@ -3546,7 +4090,9 @@
     "formatted_address": "2316 Santa Catalina St, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=4396759354158991134",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-26-2025",
+    "police_record_date": "March 26, 2025"
   },
   {
     "case_number": "25-01122",
@@ -3559,7 +4105,9 @@
     "formatted_address": "3860 Park Blvd, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=5771625639792040805",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-26-2025",
+    "police_record_date": "March 26, 2025"
   },
   {
     "case_number": "25-01137",
@@ -3572,7 +4120,9 @@
     "formatted_address": "1199 Welch Rd, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=2851664767290182217",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-26-2025",
+    "police_record_date": "March 26, 2025"
   },
   {
     "case_number": "25-01141",
@@ -3585,7 +4135,9 @@
     "formatted_address": "1100 Emerson St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=13191148303523747695",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-26-2025",
+    "police_record_date": "March 26, 2025"
   },
   {
     "case_number": "25-01150",
@@ -3598,7 +4150,9 @@
     "formatted_address": "3370 19th St, San Francisco, CA 94110, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10265922593583807811",
     "place_types": "clothing_store,store,point_of_interest,establishment",
-    "location_interpretation": "specific_place"
+    "location_interpretation": "specific_place",
+    "police_record_date_str": "march-26-2025",
+    "police_record_date": "March 26, 2025"
   },
   {
     "case_number": "25-01151",
@@ -3611,7 +4165,9 @@
     "formatted_address": "816 La Para Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=8933008754836749924",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-26-2025",
+    "police_record_date": "March 26, 2025"
   },
   {
     "case_number": "25-01156",
@@ -3624,7 +4180,9 @@
     "formatted_address": "4171 Hubbartt Dr, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=13513762074193235800",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-26-2025",
+    "police_record_date": "March 26, 2025"
   },
   {
     "case_number": "25-01163",
@@ -3637,7 +4195,9 @@
     "formatted_address": "2555 Charleston Rd, Mountain View, CA 94043, USA",
     "google_maps_uri": "https://maps.google.com/?cid=7849379358671564373",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-26-2025",
+    "police_record_date": "March 26, 2025"
   },
   {
     "case_number": "25-01164",
@@ -3650,7 +4210,9 @@
     "formatted_address": "El Camino Real & Stanford Ave, Stanford, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?q=El+Camino+Real+%26+Stanford+Ave,+Stanford,+CA+94306,+USA&ftid=0x808fbae71e59b3a5:0x389a339711e4ddc",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "march-26-2025",
+    "police_record_date": "March 26, 2025"
   },
   {
     "case_number": "25-01165",
@@ -3663,7 +4225,9 @@
     "formatted_address": "3254 Bryant St, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=3749823849214383754",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-26-2025",
+    "police_record_date": "March 26, 2025"
   },
   {
     "case_number": "25-01167",
@@ -3676,7 +4240,9 @@
     "formatted_address": "164 Primrose Way, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=8643263439085392495",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-26-2025",
+    "police_record_date": "March 26, 2025"
   },
   {
     "case_number": "25-01175",
@@ -3689,7 +4255,9 @@
     "formatted_address": "851 Center Dr, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=15283285419633205563",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-26-2025",
+    "police_record_date": "March 26, 2025"
   },
   {
     "case_number": "25-01185",
@@ -3702,7 +4270,9 @@
     "formatted_address": "275 Forest Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=95238810619628067",
     "place_types": "subpremise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-26-2025",
+    "police_record_date": "March 26, 2025"
   },
   {
     "case_number": "25-01078",
@@ -3715,7 +4285,9 @@
     "formatted_address": "250 Hamilton Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=8504657287920517765",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-25-2025",
+    "police_record_date": "March 25, 2025"
   },
   {
     "case_number": "25-01131",
@@ -3728,7 +4300,9 @@
     "formatted_address": "528 High St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=18041740550203445373",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-25-2025",
+    "police_record_date": "March 25, 2025"
   },
   {
     "case_number": "25-01146",
@@ -3741,7 +4315,9 @@
     "formatted_address": "Alma St & Churchill Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?q=Alma+St+%26+Churchill+Ave,+Palo+Alto,+CA+94306,+USA&ftid=0x808fbb1f81fb91bd:0x60389d0e73564ecd",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "march-25-2025",
+    "police_record_date": "March 25, 2025"
   },
   {
     "case_number": "25-01159",
@@ -3754,7 +4330,9 @@
     "formatted_address": "270 Forest Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=15309316706126398148",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-25-2025",
+    "police_record_date": "March 25, 2025"
   },
   {
     "case_number": "25-01128",
@@ -3767,7 +4345,9 @@
     "formatted_address": "2310 Princeton St, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=4037702921806111748",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-03-2025",
+    "police_record_date": "April 03, 2025"
   },
   {
     "case_number": "25-01202",
@@ -3780,7 +4360,9 @@
     "formatted_address": "Alma St, Palo Alto, CA, USA",
     "google_maps_uri": "https://maps.google.com/?q=Alma+St,+Palo+Alto,+CA,+USA&ftid=0x808fbaf07bbdb5bd:0xa6fcf912847c6e99",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "april-03-2025",
+    "police_record_date": "April 03, 2025"
   },
   {
     "case_number": "25-01275",
@@ -3793,7 +4375,9 @@
     "formatted_address": "180 El Camino Real, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10694182497936204464",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-03-2025",
+    "police_record_date": "April 03, 2025"
   },
   {
     "case_number": "25-01289",
@@ -3806,7 +4390,9 @@
     "formatted_address": "El Camino Real, Palo Alto, CA, USA",
     "google_maps_uri": "https://maps.google.com/?q=El+Camino+Real,+Palo+Alto,+CA,+USA&ftid=0x808fcb0b782c489d:0x380db039ff6cae75",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "april-03-2025",
+    "police_record_date": "April 03, 2025"
   },
   {
     "case_number": "25-01217",
@@ -3819,7 +4405,9 @@
     "formatted_address": "131 Ferne Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=551440421077637202",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-10-2025",
+    "police_record_date": "April 10, 2025"
   },
   {
     "case_number": "25-01222",
@@ -3832,7 +4420,9 @@
     "formatted_address": "2000 Edgewood Dr, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=789563794662717059",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-10-2025",
+    "police_record_date": "April 10, 2025"
   },
   {
     "case_number": "25-01231",
@@ -3845,7 +4435,9 @@
     "formatted_address": "180 El Camino Real, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10694182497936204464",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-10-2025",
+    "police_record_date": "April 10, 2025"
   },
   {
     "case_number": "25-01242",
@@ -3858,7 +4450,9 @@
     "formatted_address": "2300 Birch St, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?q=2300+Birch+St,+Palo+Alto,+CA+94306,+USA&ftid=0x808fbae5ca74f36f:0x1b67db945fe1c7fb",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-10-2025",
+    "police_record_date": "April 10, 2025"
   },
   {
     "case_number": "25-01243",
@@ -3871,7 +4465,9 @@
     "formatted_address": "180 El Camino Real, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10694182497936204464",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-10-2025",
+    "police_record_date": "April 10, 2025"
   },
   {
     "case_number": "25-01248",
@@ -3884,7 +4480,9 @@
     "formatted_address": "285 San Antonio Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=16658977763059734121",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-10-2025",
+    "police_record_date": "April 10, 2025"
   },
   {
     "case_number": "25-01276",
@@ -3897,7 +4495,9 @@
     "formatted_address": "3868 Magnolia Dr, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=12782266767503957783",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-10-2025",
+    "police_record_date": "April 10, 2025"
   },
   {
     "case_number": "25-01337",
@@ -3910,7 +4510,9 @@
     "formatted_address": "360 College Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=5552424453942136444",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-10-2025",
+    "police_record_date": "April 10, 2025"
   },
   {
     "case_number": "25-01342",
@@ -3923,7 +4525,9 @@
     "formatted_address": "200 Pasteur Dr, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=13079998141728758955",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-10-2025",
+    "police_record_date": "April 10, 2025"
   },
   {
     "case_number": "25-01344",
@@ -3936,7 +4540,9 @@
     "formatted_address": "Middlefield Rd & Forest Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?q=Middlefield+Rd+%26+Forest+Ave,+Palo+Alto,+CA+94301,+USA&ftid=0x808fbb3e534932f7:0xea1e737756bf430f",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "april-10-2025",
+    "police_record_date": "April 10, 2025"
   },
   {
     "case_number": "25-01348",
@@ -3949,7 +4555,9 @@
     "formatted_address": "Pasteur Dr, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=6169494416735882827",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "april-10-2025",
+    "police_record_date": "April 10, 2025"
   },
   {
     "case_number": "25-01362",
@@ -3962,7 +4570,9 @@
     "formatted_address": "Curtner Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=14968705045571139156",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "april-10-2025",
+    "police_record_date": "April 10, 2025"
   },
   {
     "case_number": "25-01361",
@@ -3975,7 +4585,9 @@
     "formatted_address": "Middlefield Rd & Mayview Ave, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?q=Middlefield+Rd+%26+Mayview+Ave,+Palo+Alto,+CA+94303,+USA&ftid=0x808fba6963cee9c9:0xbbabd0b5bc2bc997",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "april-10-2025",
+    "police_record_date": "April 10, 2025"
   },
   {
     "case_number": "25-01365",
@@ -3988,7 +4600,9 @@
     "formatted_address": "911 Bryant St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=5459377244009753811",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-10-2025",
+    "police_record_date": "April 10, 2025"
   },
   {
     "case_number": "25-01367",
@@ -4001,7 +4615,9 @@
     "formatted_address": "E Meadow Cir, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=11004815764410248828",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "april-10-2025",
+    "police_record_date": "April 10, 2025"
   },
   {
     "case_number": "25-80246",
@@ -4014,7 +4630,9 @@
     "formatted_address": "200 California Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?q=200+California+Ave,+Palo+Alto,+CA+94306,+USA&ftid=0x808fbae5077ceb2d:0x137f5fe86243ab61",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-10-2025",
+    "police_record_date": "April 10, 2025"
   },
   {
     "case_number": "25-01378",
@@ -4027,7 +4645,9 @@
     "formatted_address": "824 Bryant St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=4888713567299154989",
     "place_types": "subpremise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-10-2025",
+    "police_record_date": "April 10, 2025"
   },
   {
     "case_number": "25-01385",
@@ -4040,7 +4660,9 @@
     "formatted_address": "Pasteur Dr, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=6169494416735882827",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "april-10-2025",
+    "police_record_date": "April 10, 2025"
   },
   {
     "case_number": "25-01388",
@@ -4053,7 +4675,9 @@
     "formatted_address": "Seneca St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=8898853323137082672",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "april-10-2025",
+    "police_record_date": "April 10, 2025"
   },
   {
     "case_number": "25-80248",
@@ -4066,7 +4690,9 @@
     "formatted_address": "452 Ferne Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=9376754807279114679",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-10-2025",
+    "police_record_date": "April 10, 2025"
   },
   {
     "case_number": "25-01389",
@@ -4079,7 +4705,9 @@
     "formatted_address": "4260 Terman Dr, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=12159087465606217991",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-10-2025",
+    "police_record_date": "April 10, 2025"
   },
   {
     "case_number": "25-80254",
@@ -4092,7 +4720,9 @@
     "formatted_address": "591 Jackson Dr, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=12706758615162146758",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-10-2025",
+    "police_record_date": "April 10, 2025"
   },
   {
     "case_number": "25-00862",
@@ -4105,7 +4735,9 @@
     "formatted_address": "2452 W Bayshore Rd, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=13150321603040279438",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-00894",
@@ -4118,7 +4750,9 @@
     "formatted_address": "Arastradero Rd, Palo Alto, CA, USA",
     "google_maps_uri": "https://maps.google.com/?q=Arastradero+Rd,+Palo+Alto,+CA,+USA&ftid=0x808fbaa6cffbbee9:0xef6ecc8c88d70b7a",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-00959",
@@ -4131,7 +4765,9 @@
     "formatted_address": "350 Sherman Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=7159047760392030236",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-00970",
@@ -4144,7 +4780,9 @@
     "formatted_address": "El Camino Real, Palo Alto, CA, USA",
     "google_maps_uri": "https://maps.google.com/?q=El+Camino+Real,+Palo+Alto,+CA,+USA&ftid=0x808fcb0b782c489d:0x380db039ff6cae75",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-00970",
@@ -4157,7 +4795,9 @@
     "formatted_address": "El Camino Real, Palo Alto, CA, USA",
     "google_maps_uri": "https://maps.google.com/?q=El+Camino+Real,+Palo+Alto,+CA,+USA&ftid=0x808fcb0b782c489d:0x380db039ff6cae75",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-00980",
@@ -4170,7 +4810,9 @@
     "formatted_address": "959 Loma Verde Ave, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=16564731968566655486",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-00987",
@@ -4183,7 +4825,9 @@
     "formatted_address": "3800 Middlefield Rd, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=14764363020477020242",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-00992",
@@ -4196,7 +4840,9 @@
     "formatted_address": "3922 Middlefield Rd, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10218850953901325291",
     "place_types": "subpremise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-01002",
@@ -4209,7 +4855,9 @@
     "formatted_address": "4075 El Camino Way, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=12142144809941670185",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-01007",
@@ -4222,7 +4870,9 @@
     "formatted_address": "1900 Bryant St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=1816965633407916520",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-01015",
@@ -4235,7 +4885,9 @@
     "formatted_address": "Pasteur Dr, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=6169494416735882827",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-01013",
@@ -4248,7 +4900,9 @@
     "formatted_address": "Embarcadero Rd, Palo Alto, CA, USA",
     "google_maps_uri": "https://maps.google.com/?cid=13727010580694448510",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-01019",
@@ -4261,7 +4915,9 @@
     "formatted_address": "2511 Webster St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=7003598034483131744",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-01022",
@@ -4274,7 +4930,9 @@
     "formatted_address": "110 Webster St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=2758887882127138958",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-01029",
@@ -4287,7 +4945,9 @@
     "formatted_address": "E Charleston Rd, Palo Alto, CA, USA",
     "google_maps_uri": "https://maps.google.com/?q=E+Charleston+Rd,+Palo+Alto,+CA,+USA&ftid=0x808fba12b0563d4f:0xc776ca1a9c76c009",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-01026",
@@ -4300,7 +4960,9 @@
     "formatted_address": "774 Emerson St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=706819191845704013",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-01030",
@@ -4313,7 +4975,9 @@
     "formatted_address": "100 California Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=1554603609471760012",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-01031",
@@ -4326,7 +4990,9 @@
     "formatted_address": "438 Ramona St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=8859041718673530844",
     "place_types": "subpremise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-01054",
@@ -4339,7 +5005,9 @@
     "formatted_address": "650 Center Dr, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=11482678660449455987",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-01058",
@@ -4352,7 +5020,9 @@
     "formatted_address": "800 San Antonio Rd, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=9853927989295927247",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-01060",
@@ -4365,7 +5035,9 @@
     "formatted_address": "180 El Camino Real, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10694182497936204464",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-01063",
@@ -4378,7 +5050,9 @@
     "formatted_address": "3398 El Camino Real, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=8511721647820486534",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-01065",
@@ -4391,7 +5065,9 @@
     "formatted_address": "1530 Arastradero Rd, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=1133413590713193401",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-01070",
@@ -4404,7 +5080,9 @@
     "formatted_address": "901 Webster St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=5085586716033190035",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-01076",
@@ -4417,7 +5095,9 @@
     "formatted_address": "Seneca St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=8898853323137082672",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-80193",
@@ -4430,7 +5110,9 @@
     "formatted_address": "3111 Bandera Dr, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=5567478153497270511",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-01077",
@@ -4443,7 +5125,9 @@
     "formatted_address": "250 Hamilton Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=8504657287920517765",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-80194",
@@ -4456,7 +5140,9 @@
     "formatted_address": "451 Addison Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=3842038604496674712",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-01084",
@@ -4469,7 +5155,9 @@
     "formatted_address": "1921 El Camino Real, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=5133213347219509035",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-01095",
@@ -4482,7 +5170,9 @@
     "formatted_address": "690 San Antonio Rd, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=13163906387207585640",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-80197",
@@ -4495,7 +5185,9 @@
     "formatted_address": "Mosher Way & Clark Way, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?q=Mosher+Way+%26+Clark+Way,+Palo+Alto,+CA+94304,+USA&ftid=0x808fa4ce9a6dfb47:0x122f40ba54655c6c",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-01097",
@@ -4508,7 +5200,9 @@
     "formatted_address": "250 Hamilton Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=8504657287920517765",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-01099",
@@ -4521,7 +5215,9 @@
     "formatted_address": "800 High St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=993997586354387578",
     "place_types": "subpremise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-01106",
@@ -4534,7 +5230,9 @@
     "formatted_address": "Lane Building, 300 Pasteur Dr, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=812107605461160909",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-01104",
@@ -4547,7 +5245,9 @@
     "formatted_address": "445 Bryant St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=1487843547148381158",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-01110",
@@ -4560,7 +5260,9 @@
     "formatted_address": "180 El Camino Real, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10694182497936204464",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-01111",
@@ -4573,7 +5275,9 @@
     "formatted_address": "95 University Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=3689665010728101625",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-01113",
@@ -4586,7 +5290,9 @@
     "formatted_address": "3700 Middlefield Rd, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=6116507327194040035",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-01114",
@@ -4599,7 +5305,9 @@
     "formatted_address": "706 Sutter Ave, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=7838700769474846424",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "march-20-2025",
+    "police_record_date": "March 20, 2025"
   },
   {
     "case_number": "25-01223",
@@ -4612,7 +5320,9 @@
     "formatted_address": "913 El Cajon Way, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=12535047792178163180",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-15-2025",
+    "police_record_date": "April 15, 2025"
   },
   {
     "case_number": "25-01246",
@@ -4625,7 +5335,9 @@
     "formatted_address": "535 Arastradero Rd, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10795717329918837823",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-15-2025",
+    "police_record_date": "April 15, 2025"
   },
   {
     "case_number": "25-01264",
@@ -4638,7 +5350,9 @@
     "formatted_address": "668 Ramona St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=7330913330337466517",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-15-2025",
+    "police_record_date": "April 15, 2025"
   },
   {
     "case_number": "25-01279",
@@ -4651,7 +5365,9 @@
     "formatted_address": "783 Talisman Ct, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=7458814836826745123",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-15-2025",
+    "police_record_date": "April 15, 2025"
   },
   {
     "case_number": "25-01328",
@@ -4664,7 +5380,9 @@
     "formatted_address": "101 Alma St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=17547375108891140604",
     "place_types": "condominium_complex,point_of_interest,establishment",
-    "location_interpretation": "specific_place"
+    "location_interpretation": "specific_place",
+    "police_record_date_str": "april-15-2025",
+    "police_record_date": "April 15, 2025"
   },
   {
     "case_number": "25-01352",
@@ -4677,7 +5395,9 @@
     "formatted_address": "2675 Middlefield Rd, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=3757611220665581614",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-15-2025",
+    "police_record_date": "April 15, 2025"
   },
   {
     "case_number": "25-01393",
@@ -4690,7 +5410,9 @@
     "formatted_address": "4100 El Camino Way, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=1420009526783358474",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-15-2025",
+    "police_record_date": "April 15, 2025"
   },
   {
     "case_number": "25-01395",
@@ -4703,7 +5425,9 @@
     "formatted_address": "275 Forest Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=95238810619628067",
     "place_types": "subpremise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-15-2025",
+    "police_record_date": "April 15, 2025"
   },
   {
     "case_number": "25-01403",
@@ -4716,7 +5440,9 @@
     "formatted_address": "127 Greenmeadow Way, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=639609900080385676",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-15-2025",
+    "police_record_date": "April 15, 2025"
   },
   {
     "case_number": "25-01410",
@@ -4729,7 +5455,9 @@
     "formatted_address": "Forest Ave & Alma St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?q=Forest+Ave+%26+Alma+St,+Palo+Alto,+CA+94301,+USA&ftid=0x808fbb3af40808c1:0xd1d3e7a81b5d8d62",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "april-15-2025",
+    "police_record_date": "April 15, 2025"
   },
   {
     "case_number": "25-01413",
@@ -4742,7 +5470,9 @@
     "formatted_address": "200 Palo Alto Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=11864884518236033858",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-15-2025",
+    "police_record_date": "April 15, 2025"
   },
   {
     "case_number": "25-01414",
@@ -4755,7 +5485,9 @@
     "formatted_address": "339 University Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=3559868893578607675",
     "place_types": "subpremise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-15-2025",
+    "police_record_date": "April 15, 2025"
   },
   {
     "case_number": "25-01419",
@@ -4768,7 +5500,9 @@
     "formatted_address": "491 James Rd, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=3906473867987171304",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-15-2025",
+    "police_record_date": "April 15, 2025"
   },
   {
     "case_number": "25-01425",
@@ -4781,7 +5515,9 @@
     "formatted_address": "Lincoln Ave & University Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?q=Lincoln+Ave+%26+University+Ave,+Palo+Alto,+CA+94301,+USA&ftid=0x808fbb6b657c6b95:0x83fe0b2f4b118b31",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "april-15-2025",
+    "police_record_date": "April 15, 2025"
   },
   {
     "case_number": "25-01429",
@@ -4794,7 +5530,9 @@
     "formatted_address": "892 Loma Verde Ave, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=5643790808479608886",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-15-2025",
+    "police_record_date": "April 15, 2025"
   },
   {
     "case_number": "25-01431",
@@ -4807,7 +5545,9 @@
     "formatted_address": "774 Emerson St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=706819191845704013",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-15-2025",
+    "police_record_date": "April 15, 2025"
   },
   {
     "case_number": "25-01432",
@@ -4820,7 +5560,9 @@
     "formatted_address": "180 El Camino Real, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10694182497936204464",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-15-2025",
+    "police_record_date": "April 15, 2025"
   },
   {
     "case_number": "25-01434",
@@ -4833,7 +5575,9 @@
     "formatted_address": "200 University Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=14195623155327218602",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-15-2025",
+    "police_record_date": "April 15, 2025"
   },
   {
     "case_number": "25-01433",
@@ -4846,7 +5590,9 @@
     "formatted_address": "1100 Page Mill Rd, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=5272520703963117068",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-15-2025",
+    "police_record_date": "April 15, 2025"
   },
   {
     "case_number": "25-01433",
@@ -4859,7 +5605,9 @@
     "formatted_address": "1100 Page Mill Rd, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=5272520703963117068",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-15-2025",
+    "police_record_date": "April 15, 2025"
   },
   {
     "case_number": "25-01437",
@@ -4872,7 +5620,9 @@
     "formatted_address": "3663 Arbutus Ave, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=9988811010085596722",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-15-2025",
+    "police_record_date": "April 15, 2025"
   },
   {
     "case_number": "25-01444",
@@ -4885,7 +5635,9 @@
     "formatted_address": "El Camino Real, Palo Alto, CA, USA",
     "google_maps_uri": "https://maps.google.com/?q=El+Camino+Real,+Palo+Alto,+CA,+USA&ftid=0x808fcb0b782c489d:0x380db039ff6cae75",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "april-15-2025",
+    "police_record_date": "April 15, 2025"
   },
   {
     "case_number": "25-01448",
@@ -4898,7 +5650,9 @@
     "formatted_address": "751 Waverley St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=945877788237039784",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-15-2025",
+    "police_record_date": "April 15, 2025"
   },
   {
     "case_number": "25-80228",
@@ -4911,7 +5665,9 @@
     "formatted_address": "660 Stanford Ave, Stanford, CA 94305, USA",
     "google_maps_uri": "https://maps.google.com/?q=660+Stanford+Ave,+Stanford,+CA+94305,+USA&ftid=0x808fbae79964dfe7:0x99f40565c8bb9d67",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-09-2025",
+    "police_record_date": "April 09, 2025"
   },
   {
     "case_number": "25-01283",
@@ -4924,7 +5680,9 @@
     "formatted_address": "Alma St, Palo Alto, CA, USA",
     "google_maps_uri": "https://maps.google.com/?q=Alma+St,+Palo+Alto,+CA,+USA&ftid=0x808fbaf07bbdb5bd:0xa6fcf912847c6e99",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "april-09-2025",
+    "police_record_date": "April 09, 2025"
   },
   {
     "case_number": "25-01288",
@@ -4937,7 +5695,9 @@
     "formatted_address": "628 Waverley St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=13292449444666399100",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-09-2025",
+    "police_record_date": "April 09, 2025"
   },
   {
     "case_number": "25-80241",
@@ -4950,7 +5710,9 @@
     "formatted_address": "N California Ave & Alma St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?q=N+California+Ave+%26+Alma+St,+Palo+Alto,+CA+94301,+USA&ftid=0x808fbae4e849aa23:0xfabb5271b564b5ba",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "april-09-2025",
+    "police_record_date": "April 09, 2025"
   },
   {
     "case_number": "25-01329",
@@ -4963,7 +5725,9 @@
     "formatted_address": "778 Moreno Ave, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=12968665440153204105",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-09-2025",
+    "police_record_date": "April 09, 2025"
   },
   {
     "case_number": "25-01332",
@@ -4976,7 +5740,9 @@
     "formatted_address": "Everett Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=5190860080901599826",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "april-09-2025",
+    "police_record_date": "April 09, 2025"
   },
   {
     "case_number": "25-01340",
@@ -4989,7 +5755,9 @@
     "formatted_address": "850 Webster St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=8169906365806318598",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-09-2025",
+    "police_record_date": "April 09, 2025"
   },
   {
     "case_number": "25-80243",
@@ -5002,7 +5770,9 @@
     "formatted_address": "Hamilton Ave & Alma St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?q=Hamilton+Ave+%26+Alma+St,+Palo+Alto,+CA+94301,+USA&ftid=0x808fbb3a717023e7:0x16b7b32e161110b2",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "april-09-2025",
+    "police_record_date": "April 09, 2025"
   },
   {
     "case_number": "25-80242",
@@ -5015,7 +5785,9 @@
     "formatted_address": "762 Gailen Ct, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=1747165771262315307",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-09-2025",
+    "police_record_date": "April 09, 2025"
   },
   {
     "case_number": "25-01347",
@@ -5028,7 +5800,9 @@
     "formatted_address": "474 Matadero Ave, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=559670072128925050",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-09-2025",
+    "police_record_date": "April 09, 2025"
   },
   {
     "case_number": "25-80244",
@@ -5041,7 +5815,9 @@
     "formatted_address": "272 Waverley St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=9821678904252363673",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-09-2025",
+    "police_record_date": "April 09, 2025"
   },
   {
     "case_number": "25-01351",
@@ -5054,7 +5830,9 @@
     "formatted_address": "4180 El Camino Real, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=3203124993806327495",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-09-2025",
+    "police_record_date": "April 09, 2025"
   },
   {
     "case_number": "25-80245",
@@ -5067,7 +5845,9 @@
     "formatted_address": "1237 Alma St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=5073173743628301984",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-09-2025",
+    "police_record_date": "April 09, 2025"
   },
   {
     "case_number": "25-01363",
@@ -5080,7 +5860,9 @@
     "formatted_address": "400 Emerson St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=13469935610564894791",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-09-2025",
+    "police_record_date": "April 09, 2025"
   },
   {
     "case_number": "25-01368",
@@ -5093,7 +5875,9 @@
     "formatted_address": "Park Blvd, Palo Alto, CA 94306, USA",
     "google_maps_uri": "https://maps.google.com/?cid=11205841697816294989",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "april-09-2025",
+    "police_record_date": "April 09, 2025"
   },
   {
     "case_number": "25-01369",
@@ -5106,7 +5890,9 @@
     "formatted_address": "275 Forest Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=95238810619628067",
     "place_types": "subpremise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-09-2025",
+    "police_record_date": "April 09, 2025"
   },
   {
     "case_number": "25-01370",
@@ -5119,7 +5905,9 @@
     "formatted_address": "180 El Camino Real, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10694182497936204464",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-09-2025",
+    "police_record_date": "April 09, 2025"
   },
   {
     "case_number": "25-01371",
@@ -5132,7 +5920,9 @@
     "formatted_address": "275 Forest Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=95238810619628067",
     "place_types": "subpremise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-09-2025",
+    "police_record_date": "April 09, 2025"
   },
   {
     "case_number": "25-01372",
@@ -5145,7 +5935,9 @@
     "formatted_address": "1520 Emerson St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=18080470033142750950",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-09-2025",
+    "police_record_date": "April 09, 2025"
   },
   {
     "case_number": "25-01376",
@@ -5158,7 +5950,9 @@
     "formatted_address": "300 University Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=11943660378385641275",
     "place_types": "subpremise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-09-2025",
+    "police_record_date": "April 09, 2025"
   },
   {
     "case_number": "25-01273",
@@ -5171,7 +5965,9 @@
     "formatted_address": "Forest Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=13653085721536612868",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "april-16-2025",
+    "police_record_date": "April 16, 2025"
   },
   {
     "case_number": "25-80255",
@@ -5184,7 +5980,9 @@
     "formatted_address": "240 Pasteur Dr, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=16726670519328160086",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-16-2025",
+    "police_record_date": "April 16, 2025"
   },
   {
     "case_number": "25-80258",
@@ -5197,7 +5995,9 @@
     "formatted_address": "899 E Charleston Rd, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10541960684929834702",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-16-2025",
+    "police_record_date": "April 16, 2025"
   },
   {
     "case_number": "25-80256",
@@ -5210,7 +6010,9 @@
     "formatted_address": "El Camino Real & Pistache Pl, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?q=El+Camino+Real+%26+Pistache+Pl,+Palo+Alto,+CA+94304,+USA&ftid=0x808fbb35c22fdd6d:0x7e84beb903d786e0",
     "place_types": "intersection",
-    "location_interpretation": "intersection"
+    "location_interpretation": "intersection",
+    "police_record_date_str": "april-16-2025",
+    "police_record_date": "April 16, 2025"
   },
   {
     "case_number": "25-80260",
@@ -5223,7 +6025,9 @@
     "formatted_address": "845 Ramona St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=12842435311134784521",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-16-2025",
+    "police_record_date": "April 16, 2025"
   },
   {
     "case_number": "25-01435",
@@ -5236,7 +6040,9 @@
     "formatted_address": "El Camino Real, Palo Alto, CA, USA",
     "google_maps_uri": "https://maps.google.com/?q=El+Camino+Real,+Palo+Alto,+CA,+USA&ftid=0x808fcb0b782c489d:0x380db039ff6cae75",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "april-16-2025",
+    "police_record_date": "April 16, 2025"
   },
   {
     "case_number": "25-01435",
@@ -5249,7 +6055,9 @@
     "formatted_address": "El Camino Real, Palo Alto, CA, USA",
     "google_maps_uri": "https://maps.google.com/?q=El+Camino+Real,+Palo+Alto,+CA,+USA&ftid=0x808fcb0b782c489d:0x380db039ff6cae75",
     "place_types": "route",
-    "location_interpretation": "route"
+    "location_interpretation": "route",
+    "police_record_date_str": "april-16-2025",
+    "police_record_date": "April 16, 2025"
   },
   {
     "case_number": "25-80262",
@@ -5262,7 +6070,9 @@
     "formatted_address": "510 Lytton Ave, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=16127707690273164106",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-16-2025",
+    "police_record_date": "April 16, 2025"
   },
   {
     "case_number": "25-80259",
@@ -5275,7 +6085,9 @@
     "formatted_address": "540 Bryant St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?cid=7237309208468963558",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-16-2025",
+    "police_record_date": "April 16, 2025"
   },
   {
     "case_number": "25-01453",
@@ -5288,7 +6100,9 @@
     "formatted_address": "850 Bryant St, Palo Alto, CA 94301, USA",
     "google_maps_uri": "https://maps.google.com/?q=850+Bryant+St,+Palo+Alto,+CA+94301,+USA&ftid=0x808fbb3c83fa98af:0x89e518b69500980",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-16-2025",
+    "police_record_date": "April 16, 2025"
   },
   {
     "case_number": "25-01460",
@@ -5301,7 +6115,9 @@
     "formatted_address": "102 Walter Hays Dr, Palo Alto, CA 94303, USA",
     "google_maps_uri": "https://maps.google.com/?cid=4164480243007308006",
     "place_types": "premise,street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-16-2025",
+    "police_record_date": "April 16, 2025"
   },
   {
     "case_number": "25-01463",
@@ -5314,6 +6130,8 @@
     "formatted_address": "180 El Camino Real, Palo Alto, CA 94304, USA",
     "google_maps_uri": "https://maps.google.com/?cid=10694182497936204464",
     "place_types": "street_address",
-    "location_interpretation": "street_address_or_premise"
+    "location_interpretation": "street_address_or_premise",
+    "police_record_date_str": "april-16-2025",
+    "police_record_date": "April 16, 2025"
   }
 ]

@@ -17,6 +17,8 @@ interface Incident {
   google_maps_uri: string;
   place_types: string;
   location_interpretation: string;
+  police_record_date_str?: string; // Added field for the report date string (e.g., "april-07-2025")
+  police_record_date?: string; // Added field for the formatted report date
   // Removed 'id' and 'description'
 }
 
@@ -56,6 +58,33 @@ function MapContent() {
 
   const incidents: Incident[] = Array.isArray(incidentData) ? incidentData : [];
   const selectedIncident = selectedIncidentIndex !== null ? incidents[selectedIncidentIndex] : null;
+
+  // Function to generate PDF link based on incident date
+  const generatePdfLink = (incident: Incident): string => {
+    try {
+      // First try to use the police_record_date_str from the data if available
+      if (incident.police_record_date_str) {
+        // It's already in the format we need (e.g., "april-07-2025")
+        return `https://www.paloalto.gov/files/assets/public/v/2/police-department/public-information-portal/police-report-log/${incident.police_record_date_str}-police-report-log.pdf`;
+      }
+      
+      // Fall back to parsing the incident.date if police_record_date_str is not available
+      // Parse the date string (assuming format like "Jan 1, 2024")
+      const date = new Date(incident.date);
+      
+      // Format the date to match the PDF URL format
+      const month = date.toLocaleString('en-US', { month: 'long' }).toLowerCase();
+      const day = date.getDate();
+      const year = date.getFullYear();
+      
+      // Create the URL in the format shown in the example
+      return `https://www.paloalto.gov/files/assets/public/v/2/police-department/public-information-portal/police-report-log/${month}-${day}-${year}-police-report-log.pdf`;
+    } catch (error) {
+      // In case of any parsing errors, return the main police log page
+      console.error("Error generating PDF link:", error);
+      return "https://www.paloalto.gov/Departments/Police/Public-Information-Portal/Police-Report-Log";
+    }
+  };
 
   // Initialize Autocomplete
   useEffect(() => {
@@ -182,6 +211,17 @@ function MapContent() {
                           View on Google Maps
                       </a>
                   )}
+                  {selectedIncident.police_record_date && (
+                    <p className="mt-1"><span className="font-medium">Police Log Date:</span> {selectedIncident.police_record_date}</p>
+                  )}
+                  <a 
+                    href={generatePdfLink(selectedIncident)} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="text-blue-600 hover:text-blue-800 hover:underline mt-1 block"
+                  >
+                    View Original Police Log
+                  </a>
                </div>
             </InfoWindow>
           )}
