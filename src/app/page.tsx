@@ -1,6 +1,6 @@
 "use client"; // Required for components using React Context like Google Maps
 
-import { useState, useRef, useEffect } from 'react'; // Import useRef, useEffect
+import { useState, useRef, useEffect, useMemo } from 'react'; // Import useRef, useEffect, useMemo
 import { APIProvider, Map, AdvancedMarker, InfoWindow, useMap } from "@vis.gl/react-google-maps"; // Import useMap
 import incidentData from "../../public/data/incidents.json"; // Adjust path if needed
 
@@ -10,6 +10,7 @@ interface Incident {
   date: string;
   time: number;
   offense_type: string;
+  offense_category: string;
   location: string;
   latitude: number;
   longitude: number;
@@ -46,7 +47,7 @@ interface PlaceDetails {
 }
 
 // Inner component to use the useMap hook
-function MapContent() {
+function MapContent({ incidentsToDisplay }: { incidentsToDisplay: Incident[] }) {
   const map = useMap();
   const [selectedIncidentIndex, setSelectedIncidentIndex] = useState<number | null>(null);
   const [searchResultPosition, setSearchResultPosition] = useState<LatLngLiteral | null>(null);
@@ -56,7 +57,7 @@ function MapContent() {
   const [pinnedPlaceDetails, setPinnedPlaceDetails] = useState<PlaceDetails | null>(null); 
   const searchInputRef = useRef<HTMLInputElement>(null);
 
-  const incidents: Incident[] = Array.isArray(incidentData) ? incidentData : [];
+  const incidents = incidentsToDisplay;
   const selectedIncident = selectedIncidentIndex !== null ? incidents[selectedIncidentIndex] : null;
 
   // Function to generate PDF link based on incident date
@@ -74,11 +75,14 @@ function MapContent() {
       
       // Format the date to match the PDF URL format
       const month = date.toLocaleString('en-US', { month: 'long' }).toLowerCase();
-      const day = date.getDate();
+      const day = String(date.getDate()).padStart(2, '0'); // Ensure two digits for day
       const year = date.getFullYear();
       
+      // Construct the date string like "april-07-2024"
+      const formattedDateStr = `${month}-${day}-${year}`;
+      
       // Create the URL in the format shown in the example
-      return `https://www.paloalto.gov/files/assets/public/v/2/police-department/public-information-portal/police-report-log/${month}-${day}-${year}-police-report-log.pdf`;
+      return `https://www.paloalto.gov/files/assets/public/v/2/police-department/public-information-portal/police-report-log/${formattedDateStr}-police-report-log.pdf`;
     } catch (error) {
       // In case of any parsing errors, return the main police log page
       console.error("Error generating PDF link:", error);
@@ -127,14 +131,18 @@ function MapContent() {
 
     // Cleanup listener on component unmount
     return () => {
-        if (window.google) {
-             google.maps.event.removeListener(listener);
+        if (window.google && google.maps && google.maps.event) {
+             google.maps.event.clearInstanceListeners(autocomplete); // More robust cleanup
              const pacContainers = document.querySelectorAll('.pac-container');
              pacContainers.forEach(container => container.remove());
         }
     };
   }, [map]);
 
+  // Reset selected incident index when incidentsToDisplay changes
+  useEffect(() => {
+    setSelectedIncidentIndex(null);
+  }, [incidentsToDisplay]);
 
   return (
      <> {/* Use Fragment to return multiple elements */}
@@ -161,7 +169,7 @@ function MapContent() {
           {incidents.map((incident, index) => {
             return (
               <AdvancedMarker
-                key={`${incident.case_number}-${index}`}
+                key={`${incident.case_number}-${incident.police_record_date_str ?? index}`}
                 position={{ lat: incident.latitude, lng: incident.longitude }}
                 onClick={({ domEvent }) => {
                     domEvent.stopPropagation(); 
@@ -258,6 +266,197 @@ export default function Home() {
   const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
   const [activeTab, setActiveTab] = useState<Tab>('map');
 
+  // --- Filter State ---
+  const [incidentDateStart, setIncidentDateStart] = useState('');
+  const [incidentDateEnd, setIncidentDateEnd] = useState('');
+  const [reportDateStart, setReportDateStart] = useState('');
+  const [reportDateEnd, setReportDateEnd] = useState('');
+  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
+
+  // Ensure incidentData is an array
+  const allIncidents: Incident[] = Array.isArray(incidentData) ? incidentData : [];
+
+  // --- Helper function to parse M/D/YYYY to UTC Date ---
+  const parseMDYToUTCDate = (dateString: string | null | undefined): Date | null => {
+    if (!dateString) return null;
+    const parts = dateString.split('/');
+    if (parts.length !== 3) {
+      console.warn(`Unexpected date format encountered (expected M/D/YYYY): ${dateString}`);
+      return null; // Expect M/D/YYYY
+    }
+
+    const month = parseInt(parts[0], 10);
+    const day = parseInt(parts[1], 10);
+    const year = parseInt(parts[2], 10);
+
+    // Basic validation
+    if (isNaN(month) || isNaN(day) || isNaN(year) ||
+        month < 1 || month > 12 || day < 1 || day > 31 || year < 1900 || year > 3000) { // Adjusted year range slightly
+        console.warn(`Invalid date components parsed from: ${dateString}`);
+        return null;
+    }
+
+    // Create Date object using UTC values
+    // Note: Month is 0-indexed in Date constructor
+    const utcDate = new Date(Date.UTC(year, month - 1, day));
+
+    // Double-check that the constructed date matches the input parts,
+    // as Date.UTC can sometimes adjust invalid day/month combinations (e.g., Feb 30 becomes Mar 2)
+    if (utcDate.getUTCFullYear() !== year ||
+        utcDate.getUTCMonth() !== month - 1 ||
+        utcDate.getUTCDate() !== day) {
+         console.warn(`Date constructor adjusted potentially invalid date components for: ${dateString}`);
+         return null; // Treat adjusted dates as invalid for strict parsing
+    }
+
+    return utcDate;
+  };
+
+  // --- Get Unique Offense Categories ---
+  const uniqueCategories = useMemo(() => {
+      const categories = new Set<string>();
+      allIncidents.forEach(incident => {
+          if (incident.offense_category) { 
+              categories.add(incident.offense_category);
+          }
+      });
+      return Array.from(categories).sort(); // Sort alphabetically
+  }, [allIncidents]); // Recalculate only if allIncidents changes
+
+  // --- Filtering Logic ---
+   const filteredIncidents = useMemo(() => {
+    return allIncidents.filter(incident => {
+      // Incident Date Filter (Using robust UTC comparison)
+      if (incidentDateStart || incidentDateEnd) {
+        const incidentDateUTC = parseMDYToUTCDate(incident.date);
+
+        // If incident date couldn't be parsed reliably, exclude it when filtering by date.
+        if (!incidentDateUTC) {
+          // Log is handled within parseMDYToUTCDate
+          return false;
+        }
+
+        if (incidentDateStart) {
+          try {
+            // Parse filter start date as UTC midnight. Assumes YYYY-MM-DD format from input.
+            const startDateUTC = new Date(incidentDateStart + 'T00:00:00Z');
+            // Check if the filter date itself is valid
+            if (isNaN(startDateUTC.getTime())) {
+                 console.warn("Invalid filter start date provided:", incidentDateStart);
+                 return false; // Exclude if filter start date is invalid
+            }
+            // Compare UTC timestamps. Exclude if incident date is strictly BEFORE start date.
+            if (incidentDateUTC.getTime() < startDateUTC.getTime()) return false;
+          } catch (e) {
+            // This catch might not be strictly necessary with the isNaN check, but belt-and-suspenders
+            console.warn("Error processing filter start date:", incidentDateStart, e);
+            return false; // Exclude on error
+          }
+        }
+
+        if (incidentDateEnd) {
+          try {
+             // Parse filter end date as UTC midnight. Assumes YYYY-MM-DD format from input.
+            const endDateUTC = new Date(incidentDateEnd + 'T00:00:00Z');
+             // Check if the filter date itself is valid
+            if (isNaN(endDateUTC.getTime())) {
+                 console.warn("Invalid filter end date provided:", incidentDateEnd);
+                 return false; // Exclude if filter end date is invalid
+            }
+            // Compare UTC timestamps. Exclude if incident date is strictly AFTER end date.
+            if (incidentDateUTC.getTime() > endDateUTC.getTime()) return false;
+          } catch (e) {
+             console.warn("Error processing filter end date:", incidentDateEnd, e);
+             return false; // Exclude on error
+          }
+        }
+      }
+
+      // Report Date Filter (using police_record_date if available)
+      if (reportDateStart || reportDateEnd) {
+         // Prioritize police_record_date if it exists and is valid
+         let reportDateStr = incident.police_record_date;
+         let canParseReportDate = false;
+         let reportDate: Date | null = null;
+
+         if (reportDateStr) {
+           try {
+             reportDate = new Date(reportDateStr);
+             // Check if the date is valid after parsing
+             if (!isNaN(reportDate.getTime())) {
+               canParseReportDate = true;
+               reportDate.setHours(0, 0, 0, 0);
+             }
+           } catch (e) { /* ignore parse error, might try str next */ }
+         }
+
+         // Fallback to police_record_date_str if parsing police_record_date failed or it didn't exist
+         if (!canParseReportDate && incident.police_record_date_str) {
+             // Heuristic parsing for "month-dd-yyyy" format
+             try {
+                 const parts = incident.police_record_date_str.split('-');
+                 if (parts.length === 3) {
+                     // Simple conversion, assumes "monthname-dd-yyyy"
+                     const monthNames = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
+                     const monthIndex = monthNames.indexOf(parts[0].toLowerCase());
+                     if (monthIndex > -1) {
+                         const day = parseInt(parts[1], 10);
+                         const year = parseInt(parts[2], 10);
+                         if (!isNaN(day) && !isNaN(year)) {
+                             reportDate = new Date(year, monthIndex, day);
+                             reportDate.setHours(0, 0, 0, 0);
+                             canParseReportDate = true;
+                         }
+                     }
+                 }
+             } catch(e) {
+                  console.warn("Could not parse police_record_date_str:", incident.police_record_date_str, e);
+             }
+         }
+
+
+         // If we couldn't get a valid report date, skip the filter for this incident
+         if (!canParseReportDate || !reportDate) {
+            // If *only* report date filters are active, and we can't parse, exclude it.
+             if (reportDateStart || reportDateEnd) return false; 
+         } else {
+            // Apply filter if we have a valid reportDate
+            if (reportDateStart) {
+                const startDate = new Date(reportDateStart);
+                startDate.setHours(0, 0, 0, 0);
+                if (reportDate < startDate) return false;
+            }
+            if (reportDateEnd) {
+                const endDate = new Date(reportDateEnd);
+                endDate.setHours(0, 0, 0, 0);
+                if (reportDate > endDate) return false;
+            }
+         }
+      }
+
+      // Offense Category Filter
+      if (selectedCategories.length > 0 && !selectedCategories.includes(incident.offense_category)) {
+        return false;
+      }
+
+      return true; // Include incident if it passes all filters
+    });
+  }, [allIncidents, incidentDateStart, incidentDateEnd, reportDateStart, reportDateEnd, selectedCategories]);
+
+  // --- Offense Category Checkbox Handler ---
+  const handleCategoryChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+      const category = event.target.value;
+      const isChecked = event.target.checked;
+
+      setSelectedCategories(prevSelected => {
+          if (isChecked) {
+              return [...prevSelected, category]; // Add category
+          } else {
+              return prevSelected.filter(cat => cat !== category); // Remove category
+          }
+      });
+  };
+
   if (!apiKey) {
     return (
       <div className="flex items-center justify-center min-h-screen">
@@ -306,7 +505,7 @@ export default function Home() {
         {/* Context / Usage Note */} 
         <div className="p-3 mb-4 bg-green-50 border border-green-200 rounded-md text-sm text-green-800 space-y-1">
            <p>
-             <strong>How to use:</strong> Use the search bar on the map to find an address or place in Palo Alto. The map shows incidents reported in the last ~30 days (based on available public logs), marked with red dots. Click dots for details. A blue marker shows your searched location.
+             <strong>How to use:</strong> Use the search bar on the map to find an address or place in Palo Alto. Use the filters below to refine incidents shown on the map. Click dots for details. A blue marker shows your searched location.
            </p>
            <p>
              This is a personal project created by <a href="https://sourya.co/" target="_blank" rel="noopener noreferrer" className="font-medium text-indigo-600 hover:underline">Sourya Kakarla</a> as a potentially useful tool during a house hunt. It&apos;s not affiliated with the City of Palo Alto Police Department.
@@ -320,13 +519,108 @@ export default function Home() {
            </p>
         </div>
 
+        {/* --- NEW: Filter Controls --- */}
+        {activeTab === 'map' && ( // Only show filters when map tab is active
+            <div className="mb-6 p-4 bg-white rounded-lg shadow border border-gray-200">
+                <h2 className="text-lg font-semibold mb-3 text-gray-700">Filter Incidents</h2>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    {/* Incident Date Filter */}
+                    <div>
+                        <label className="block text-sm font-medium text-gray-600 mb-1">Incident Date Range</label>
+                        <div className="flex space-x-2">
+                            <input
+                                type="date"
+                                value={incidentDateStart}
+                                onChange={(e) => setIncidentDateStart(e.target.value)}
+                                className="w-full p-1.5 border border-gray-300 rounded-md text-sm text-gray-700 focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500"
+                                aria-label="Incident start date"
+                            />
+                            <input
+                                type="date"
+                                value={incidentDateEnd}
+                                onChange={(e) => setIncidentDateEnd(e.target.value)}
+                                className="w-full p-1.5 border border-gray-300 rounded-md text-sm text-gray-700 focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500"
+                                aria-label="Incident end date"
+                                min={incidentDateStart} // Prevent end date being before start date
+                            />
+                        </div>
+                         <button
+                            onClick={() => { setIncidentDateStart(''); setIncidentDateEnd(''); }}
+                            className="mt-1.5 text-xs text-blue-600 hover:underline"
+                         >
+                            Clear Dates
+                         </button>
+                    </div>
+
+                    {/* Report Date Filter */}
+                    <div>
+                        <label className="block text-sm font-medium text-gray-600 mb-1">Police Log Date Range</label>
+                        <div className="flex space-x-2">
+                            <input
+                                type="date"
+                                value={reportDateStart}
+                                onChange={(e) => setReportDateStart(e.target.value)}
+                                className="w-full p-1.5 border border-gray-300 rounded-md text-sm text-gray-700 focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500"
+                                aria-label="Report start date"
+                            />
+                            <input
+                                type="date"
+                                value={reportDateEnd}
+                                onChange={(e) => setReportDateEnd(e.target.value)}
+                                className="w-full p-1.5 border border-gray-300 rounded-md text-sm text-gray-700 focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500"
+                                aria-label="Report end date"
+                                min={reportDateStart} // Prevent end date being before start date
+                            />
+                        </div>
+                         <button
+                            onClick={() => { setReportDateStart(''); setReportDateEnd(''); }}
+                            className="mt-1.5 text-xs text-blue-600 hover:underline"
+                         >
+                             Clear Dates
+                         </button>
+                    </div>
+
+                    {/* Offense Category Filter - Using Checkboxes in a scrollable div */}
+                    <div>
+                        <label className="block text-sm font-medium text-gray-600 mb-1">Offense Category(s)</label>
+                        <div className="max-h-32 overflow-y-auto border border-gray-300 rounded-md p-2 bg-gray-50 text-sm">
+                            {uniqueCategories.length > 0 ? (
+                                uniqueCategories.map(category => (
+                                    <div key={category} className="flex items-center mb-1">
+                                        <input
+                                            type="checkbox"
+                                            id={`category-${category}`}
+                                            value={category}
+                                            checked={selectedCategories.includes(category)}
+                                            onChange={handleCategoryChange}
+                                            className="h-4 w-4 text-indigo-600 border-gray-300 rounded focus:ring-indigo-500 mr-2"
+                                        />
+                                        <label htmlFor={`category-${category}`} className="text-gray-700">{category}</label>
+                                    </div>
+                                ))
+                            ) : (
+                                <p className="text-gray-500 italic">No offense categories found.</p>
+                            )}
+                        </div>
+                         <button
+                            onClick={() => setSelectedCategories([])}
+                            className="mt-1.5 text-xs text-blue-600 hover:underline"
+                         >
+                             Clear Selection
+                         </button>
+                    </div>
+                </div>
+            </div>
+        )}
+
         {/* Tab Content */}
         <div className="flex-grow relative"> {/* Added relative positioning for absolute search bar */}
-          {/* Map View - Now uses MapContent component */} 
+          {/* Map View - Pass filtered incidents */}
           {activeTab === 'map' && (
-            <APIProvider apiKey={apiKey} libraries={['places']}> {/* Request Places library */}
+            <APIProvider apiKey={apiKey} libraries={['places']}>
               <div className="relative w-full h-[65vh] md:h-[70vh] rounded-lg shadow-lg overflow-hidden border border-gray-300">
-                 <MapContent /> {/* Render the component that uses useMap */} 
+                 {/* Pass the filtered incidents to MapContent */}
+                 <MapContent incidentsToDisplay={filteredIncidents} />
               </div>
             </APIProvider>
           )}
