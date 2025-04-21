@@ -103,7 +103,7 @@ function MapContent({ incidentsToDisplay }: { incidentsToDisplay: Incident[] }) 
         componentRestrictions: { country: 'us' }
     });
 
-    const listener = autocomplete.addListener('place_changed', () => {
+    autocomplete.addListener('place_changed', () => {
         const place = autocomplete.getPlace();
         if (place.geometry?.location && place.name && place.formatted_address) {
             const newPos = {
@@ -273,8 +273,8 @@ export default function Home() {
   const [reportDateEnd, setReportDateEnd] = useState('');
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
 
-  // Ensure incidentData is an array
-  const allIncidents: Incident[] = Array.isArray(incidentData) ? incidentData : [];
+  // Ensure incidentData is an array - Wrapped in useMemo
+  const allIncidents: Incident[] = useMemo(() => Array.isArray(incidentData) ? incidentData : [], []);
 
   // --- Helper function to parse M/D/YYYY to UTC Date ---
   const parseMDYToUTCDate = (dateString: string | null | undefined): Date | null => {
@@ -375,7 +375,7 @@ export default function Home() {
       // Report Date Filter (using police_record_date if available)
       if (reportDateStart || reportDateEnd) {
          // Prioritize police_record_date if it exists and is valid
-         let reportDateStr = incident.police_record_date;
+         const reportDateStr = incident.police_record_date; 
          let canParseReportDate = false;
          let reportDate: Date | null = null;
 
@@ -387,7 +387,7 @@ export default function Home() {
                canParseReportDate = true;
                reportDate.setHours(0, 0, 0, 0);
              }
-           } catch (e) { /* ignore parse error, might try str next */ }
+           } catch { /* ignore parse error, might try str next */ } 
          }
 
          // Fallback to police_record_date_str if parsing police_record_date failed or it didn't exist
