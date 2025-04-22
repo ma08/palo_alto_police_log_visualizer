@@ -333,6 +333,8 @@ export default function Home() {
   const [reportDateStart, setReportDateStart] = useState('');
   const [reportDateEnd, setReportDateEnd] = useState('');
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
+  // --- NEW: State for imprecise location filter ---
+  const [hideImpreciseLocations, setHideImpreciseLocations] = useState(true); // Default to ON
 
   // Ensure incidentData is an array - Wrapped in useMemo
   const allIncidents: Incident[] = useMemo(() => Array.isArray(incidentData) ? incidentData : [], []);
@@ -408,7 +410,15 @@ export default function Home() {
 
   // --- Filtering Logic ---
    const filteredIncidents = useMemo(() => {
+    // Define imprecise types (can be expanded)
+    const impreciseLocationTypes = ['route', 'intersection']; // Lowercase for easier matching
+
     return allIncidents.filter(incident => {
+      // --- NEW: Imprecise Location Filter ---
+      if (hideImpreciseLocations && incident.location_interpretation && impreciseLocationTypes.includes(incident.location_interpretation.toLowerCase())) {
+          return false;
+      }
+
       // Incident Date Filter (Using robust UTC comparison)
       if (incidentDateStart || incidentDateEnd) {
         const incidentDateUTC = parseMDYToUTCDate(incident.date);
@@ -524,7 +534,7 @@ export default function Home() {
 
       return true; // Include incident if it passes all filters
     });
-  }, [allIncidents, incidentDateStart, incidentDateEnd, reportDateStart, reportDateEnd, selectedCategories]);
+  }, [allIncidents, incidentDateStart, incidentDateEnd, reportDateStart, reportDateEnd, selectedCategories, hideImpreciseLocations]); // Added hideImpreciseLocations dependency
 
   // --- Offense Category Checkbox Handler ---
   const handleCategoryChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -584,6 +594,7 @@ export default function Home() {
                  <li><strong>Search:</strong> Use the search bar above the map to find an address or place. A blue pin marks your searched location.</li>
                  <li><strong>Explore Incidents:</strong> Click the colored dots to view details about a specific police report, including a link to the original PDF log.</li>
                  <li><strong>Filter Data:</strong> Expand the &quot;Filter Incidents&quot; section (below) to narrow results by incident date, police log date, or offense category.</li>
+                 <li><strong>Hide Imprecise Locations:</strong> By default, incidents mapped to general areas like routes or intersections are hidden. Uncheck the corresponding box in the &quot;Filter Incidents&quot; section to show these.</li>
                  <li><strong>Legend:</strong> Colored dots represent incident categories. A special marker is placed on your searched location to distinguish it from other markers.</li>
                </ul>
                <p>
@@ -625,7 +636,7 @@ export default function Home() {
             </button>
             {isFiltersVisible && (
               <div className="p-4 border-t border-gray-200"> {/* Content wrapper */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4"> {/* Added mb-4 for spacing before the new filter */}
                     {/* Incident Date Filter */}
                     <div>
                         <label className="block text-sm font-medium text-gray-600 mb-1">Incident Date Range</label>
@@ -719,6 +730,21 @@ export default function Home() {
                          >
                              Clear Selection
                          </button>
+                    </div>
+                </div>
+                {/* --- NEW: Imprecise Location Filter Checkbox --- */}
+                <div className="mt-4 pt-4 border-t border-gray-100"> {/* Separator line */}
+                    <div className="flex items-center">
+                        <input
+                            type="checkbox"
+                            id="hide-imprecise-locations"
+                            checked={hideImpreciseLocations}
+                            onChange={(e) => setHideImpreciseLocations(e.target.checked)}
+                            className="h-4 w-4 text-indigo-600 border-gray-300 rounded focus:ring-indigo-500 mr-2"
+                        />
+                        <label htmlFor="hide-imprecise-locations" className="text-sm text-gray-700 cursor-pointer">
+                            Hide incidents without precise street addresses (e.g., routes, intersections)
+                        </label>
                     </div>
                 </div>
               </div>
