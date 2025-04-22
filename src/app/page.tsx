@@ -570,7 +570,7 @@ export default function Home() {
            *Note: The current map data covers <a href="https://www.paloalto.gov/Departments/Police/Public-Information-Portal/Police-Report-Log" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-800">incidents reported</a> from February 18, 2025, to April 18, 2025.*
          </p>
         <div className="flex justify-center items-center space-x-4 text-xs text-blue-600 mt-1">
-            <a href="https://github.com/ma08/palo_alto_police_log_visualizer" target="_blank" rel="noopener noreferrer" className="hover:underline">View Source Code on GitHub</a>
+            <a href="https://github.com/ma08/palo_alto_police_log_analysis" target="_blank" rel="noopener noreferrer" className="hover:underline">View Source Code on GitHub</a>
             <span className="text-gray-400">|</span> {/* Optional Separator */}
             <a href="https://sourya.co/blog/2025-04-22-palo-alto-police-log-visualizer/" target="_blank" rel="noopener noreferrer" className="hover:underline">Read the Blog Post</a>
         </div>
