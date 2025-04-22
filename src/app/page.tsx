@@ -556,10 +556,14 @@ export default function Home() {
       <header className="bg-white shadow-md p-4">
         {/* Responsive text size for header */}
         <h1 className="text-xl sm:text-2xl font-bold text-center text-gray-800">Palo Alto Police Report Log Visualizer</h1>
-        <p className="text-center text-sm text-gray-600 mt-1">*Note: The current map data covers incidents reported from February 18, 2025, to April 18, 2025.*</p>
-        <p className="text-center text-xs text-blue-600 mt-1">
-           <a href="https://github.com/ma08/palo_alto_police_log_visualizer" target="_blank" rel="noopener noreferrer" className="hover:underline">View Source Code on GitHub</a>
-        </p>
+         <p className="text-center text-sm text-gray-600 mt-1">
+           *Note: The current map data covers <a href="https://www.paloalto.gov/Departments/Police/Public-Information-Portal/Police-Report-Log" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-800">incidents reported</a> from February 18, 2025, to April 18, 2025.*
+         </p>
+        <div className="flex justify-center items-center space-x-4 text-xs text-blue-600 mt-1">
+            <a href="https://github.com/ma08/palo_alto_police_log_visualizer" target="_blank" rel="noopener noreferrer" className="hover:underline">View Source Code on GitHub</a>
+            <span className="text-gray-400">|</span> {/* Optional Separator */}
+            <a href="https://sourya.co/blog/2025-04-22-palo-alto-police-log-visualizer/" target="_blank" rel="noopener noreferrer" className="hover:underline">Read the Blog Post</a>
+        </div>
       </header>
 
       {/* Main Content Area */}
@@ -576,11 +580,14 @@ export default function Home() {
            </button>
            {isHowToUseVisible && (
              <div className="p-3 border-t border-green-200 space-y-1">
+               <ul className="list-disc list-inside space-y-1">
+                 <li><strong>Search:</strong> Use the search bar above the map to find an address or place. A blue pin marks your searched location.</li>
+                 <li><strong>Explore Incidents:</strong> Click the colored dots to view details about a specific police report, including a link to the original PDF log.</li>
+                 <li><strong>Filter Data:</strong> Expand the &quot;Filter Incidents&quot; section (below) to narrow results by incident date, police log date, or offense category.</li>
+                 <li><strong>Legend:</strong> Colored dots represent incident categories. A special marker is placed on your searched location to distinguish it from other markers.</li>
+               </ul>
                <p>
-                 Use the search bar on the map to find an address or place in Palo Alto. Use the filters below to refine incidents shown on the map. Click dots for details. A standard map pin shows your searched location.
-               </p>
-               <p>
-                 This is a personal project created by <a href="https://sourya.co/" target="_blank" rel="noopener noreferrer" className="font-medium text-indigo-600 hover:underline">Sourya Kakarla</a> as a potentially useful tool during a house hunt. It&apos;s not affiliated with the City of Palo Alto Police Department.
+                 This is a personal project created by <a href="https://sourya.co/" target="_blank" rel="noopener noreferrer" className="font-medium text-indigo-600 hover:underline">Sourya Kakarla</a> as a useful tool during a house hunt. It&apos;s not affiliated with the City of Palo Alto Police Department.
                </p>
              </div>
            )}
@@ -597,9 +604,12 @@ export default function Home() {
            </button>
            {isDisclaimerVisible && (
              <div className="p-3 border-t border-orange-200">
-               <p>
-                 The data presented is based on automated processing of public records and may contain errors or omissions. No guarantee of accuracy or completeness is provided. Always consult the official <a href="https://www.paloalto.gov/Departments/Police/Public-Information-Portal/Police-Report-Log" target="_blank" rel="noopener noreferrer" className="font-semibold text-orange-700 underline hover:text-orange-900">Palo Alto Police Report Logs</a> for authoritative information.
-               </p>
+               <ul className="list-disc list-inside space-y-1">
+                 <li>Data is derived from automated processing of public records and may contain errors or omissions.</li>
+                 <li>No guarantee of accuracy or completeness is provided.</li>
+                 <li>For authoritative information, always consult the official <a href="https://www.paloalto.gov/Departments/Police/Public-Information-Portal/Police-Report-Log" target="_blank" rel="noopener noreferrer" className="font-semibold text-orange-700 underline hover:text-orange-900">Palo Alto Police Report Logs</a>.</li>
+                 <li>Verify specific incidents by clicking the marker and using the &quot;View Original Police Log&quot; link in the pop-up.</li>
+               </ul>
              </div>
            )}
         </div>
