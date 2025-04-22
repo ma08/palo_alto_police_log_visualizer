@@ -23,9 +23,6 @@ interface Incident {
   // Removed 'id' and 'description'
 }
 
-// Define Tab component type
-type Tab = 'map' | 'source' | 'methodology';
-
 // Define type for search result position
 interface LatLngLiteral {
     lat: number;
@@ -324,12 +321,11 @@ const assignColorByCategory = (category: string): string => {
 
 export default function Home() {
   const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
-  const [activeTab, setActiveTab] = useState<Tab>('map');
 
   // --- NEW: State for collapsible sections ---
-  const [isHowToUseVisible, setIsHowToUseVisible] = useState(true);
-  const [isDisclaimerVisible, setIsDisclaimerVisible] = useState(true);
-  const [isFiltersVisible, setIsFiltersVisible] = useState(true);
+  const [isHowToUseVisible, setIsHowToUseVisible] = useState(false);
+  const [isDisclaimerVisible, setIsDisclaimerVisible] = useState(false);
+  const [isFiltersVisible, setIsFiltersVisible] = useState(false); // Default to collapsed
 
   // --- Filter State ---
   const [incidentDateStart, setIncidentDateStart] = useState('');
@@ -409,30 +405,6 @@ export default function Home() {
       });
       return map;
   }, [uniqueCategories]); // Depends only on the unique categories list
-
-  // --- NEW: Effect to collapse sections on mobile by default ---
-  useEffect(() => {
-    const mediaQuery = window.matchMedia('(max-width: 767px)'); // Corresponds to md breakpoint in Tailwind
-
-    // Removed unused handleResize function
-    // const handleResize = () => {
-      // Set initial state based on screen size
-      // We only set it to false initially on mobile, we don't force it closed on resize
-      // If you want it to always collapse on resize to mobile, remove the initial check
-    // };
-
-    // Set initial state on mount
-    if (mediaQuery.matches) {
-      setIsHowToUseVisible(false);
-      setIsDisclaimerVisible(false);
-      setIsFiltersVisible(false);
-    }
-
-    // Optional: Add listener if you want dynamic collapsing on resize (might be jarring)
-    // mediaQuery.addEventListener('change', handleResize);
-    // return () => mediaQuery.removeEventListener('change', handleResize);
-
-  }, []); // Empty dependency array ensures this runs only once on mount
 
   // --- Filtering Logic ---
    const filteredIncidents = useMemo(() => {
@@ -584,34 +556,14 @@ export default function Home() {
       <header className="bg-white shadow-md p-4">
         {/* Responsive text size for header */}
         <h1 className="text-xl sm:text-2xl font-bold text-center text-gray-800">Palo Alto Police Report Log Visualizer</h1>
+        <p className="text-center text-sm text-gray-600 mt-1">*Note: The current map data covers incidents reported from February 18, 2025, to April 18, 2025.*</p>
+        <p className="text-center text-xs text-blue-600 mt-1">
+           <a href="https://github.com/ma08/palo_alto_police_log_visualizer" target="_blank" rel="noopener noreferrer" className="hover:underline">View Source Code on GitHub</a>
+        </p>
       </header>
 
       {/* Main Content Area */}
       <main className="flex-grow container mx-auto p-4 md:p-6 lg:p-8 flex flex-col">
-
-        {/* Tab Navigation - Added horizontal scroll on overflow */}
-        <div className="mb-4 border-b border-gray-300 overflow-x-auto">
-          <nav className="-mb-px flex space-x-6" aria-label="Tabs">
-            <button
-              onClick={() => setActiveTab('map')}
-              className={`whitespace-nowrap py-3 px-1 border-b-2 font-medium text-sm ${activeTab === 'map' ? 'border-indigo-500 text-indigo-600' : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'}`}
-            >
-              Incident Map
-            </button>
-            <button
-              onClick={() => setActiveTab('source')}
-              className={`whitespace-nowrap py-3 px-1 border-b-2 font-medium text-sm ${activeTab === 'source' ? 'border-indigo-500 text-indigo-600' : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'}`}
-            >
-              Source Data
-            </button>
-            <button
-              onClick={() => setActiveTab('methodology')}
-              className={`whitespace-nowrap py-3 px-1 border-b-2 font-medium text-sm ${activeTab === 'methodology' ? 'border-indigo-500 text-indigo-600' : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'}`}
-            >
-              Methodology
-            </button>
-          </nav>
-        </div>
 
         {/* Context / Usage Note - NOW TOGGLABLE */}
         <div className="mb-4 bg-green-50 border border-green-200 rounded-md text-sm text-green-800 overflow-hidden">
@@ -620,7 +572,7 @@ export default function Home() {
              className="w-full p-3 text-left font-medium flex items-center hover:bg-green-100 focus:outline-none"
            >
              <span className="mr-2">{isHowToUseVisible ? '▲' : '▼'}</span> {/* Icon on the left */}
-             <span>How to use</span>
+             <span>How to use <span className="text-xs font-normal text-gray-500">(click to expand/collapse)</span></span>
            </button>
            {isHowToUseVisible && (
              <div className="p-3 border-t border-green-200 space-y-1">
@@ -641,7 +593,7 @@ export default function Home() {
              className="w-full p-3 text-left font-medium flex items-center hover:bg-orange-100 focus:outline-none"
            >
              <span className="mr-2">{isDisclaimerVisible ? '▲' : '▼'}</span> {/* Icon on the left */}
-             <span>Disclaimer</span>
+             <span>Disclaimer <span className="text-xs font-normal text-gray-500">(click to expand/collapse)</span></span>
            </button>
            {isDisclaimerVisible && (
              <div className="p-3 border-t border-orange-200">
@@ -653,176 +605,128 @@ export default function Home() {
         </div>
 
         {/* --- Filter Controls - NOW TOGGLABLE --- */}
-        {activeTab === 'map' && ( // Only show filters section when map tab is active
-            <div className="mb-6 bg-white rounded-lg shadow border border-gray-200 overflow-hidden">
-                <button
-                  onClick={() => setIsFiltersVisible(!isFiltersVisible)}
-                  className="w-full p-4 text-left text-lg font-semibold text-gray-700 flex items-center hover:bg-gray-50 focus:outline-none"
-                >
-                  <span className="mr-2">{isFiltersVisible ? '▲' : '▼'}</span> {/* Icon on the left */}
-                  <span>Filter Incidents</span>
-                </button>
-                {isFiltersVisible && (
-                  <div className="p-4 border-t border-gray-200"> {/* Content wrapper */}
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                        {/* Incident Date Filter */}
-                        <div>
-                            <label className="block text-sm font-medium text-gray-600 mb-1">Incident Date Range</label>
-                            <div className="flex space-x-2">
-                                <input
-                                    type="date"
-                                    value={incidentDateStart}
-                                    onChange={(e) => setIncidentDateStart(e.target.value)}
-                                    className="w-full p-1.5 border border-gray-300 rounded-md text-sm text-gray-700 focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500"
-                                    aria-label="Incident start date"
-                                />
-                                <input
-                                    type="date"
-                                    value={incidentDateEnd}
-                                    onChange={(e) => setIncidentDateEnd(e.target.value)}
-                                    className="w-full p-1.5 border border-gray-300 rounded-md text-sm text-gray-700 focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500"
-                                    aria-label="Incident end date"
-                                    min={incidentDateStart} // Prevent end date being before start date
-                                />
-                            </div>
-                             <button
-                                onClick={() => { setIncidentDateStart(''); setIncidentDateEnd(''); }}
-                                className="mt-1.5 text-xs text-blue-600 hover:underline"
-                             >
-                                Clear Dates
-                             </button>
+        <div className="mb-6 bg-white rounded-lg shadow border border-gray-200 overflow-hidden">
+            <button
+              onClick={() => setIsFiltersVisible(!isFiltersVisible)}
+              className="w-full p-4 text-left text-lg font-semibold text-gray-700 flex items-center hover:bg-gray-50 focus:outline-none"
+            >
+              <span className="mr-2">{isFiltersVisible ? '▲' : '▼'}</span> {/* Icon on the left */}
+              <span>Filter Incidents <span className="text-xs font-normal text-gray-500">(click to expand/collapse)</span></span>
+            </button>
+            {isFiltersVisible && (
+              <div className="p-4 border-t border-gray-200"> {/* Content wrapper */}
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    {/* Incident Date Filter */}
+                    <div>
+                        <label className="block text-sm font-medium text-gray-600 mb-1">Incident Date Range</label>
+                        <div className="flex space-x-2">
+                            <input
+                                type="date"
+                                value={incidentDateStart}
+                                onChange={(e) => setIncidentDateStart(e.target.value)}
+                                className="w-full p-1.5 border border-gray-300 rounded-md text-sm text-gray-700 focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500"
+                                aria-label="Incident start date"
+                            />
+                            <input
+                                type="date"
+                                value={incidentDateEnd}
+                                onChange={(e) => setIncidentDateEnd(e.target.value)}
+                                className="w-full p-1.5 border border-gray-300 rounded-md text-sm text-gray-700 focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500"
+                                aria-label="Incident end date"
+                                min={incidentDateStart} // Prevent end date being before start date
+                            />
                         </div>
-
-                        {/* Report Date Filter */}
-                        <div>
-                            <label className="block text-sm font-medium text-gray-600 mb-1">Police Log Date Range</label>
-                            <div className="flex space-x-2">
-                                <input
-                                    type="date"
-                                    value={reportDateStart}
-                                    onChange={(e) => setReportDateStart(e.target.value)}
-                                    className="w-full p-1.5 border border-gray-300 rounded-md text-sm text-gray-700 focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500"
-                                    aria-label="Report start date"
-                                />
-                                <input
-                                    type="date"
-                                    value={reportDateEnd}
-                                    onChange={(e) => setReportDateEnd(e.target.value)}
-                                    className="w-full p-1.5 border border-gray-300 rounded-md text-sm text-gray-700 focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500"
-                                    aria-label="Report end date"
-                                    min={reportDateStart} // Prevent end date being before start date
-                                />
-                            </div>
-                             <button
-                                onClick={() => { setReportDateStart(''); setReportDateEnd(''); }}
-                                className="mt-1.5 text-xs text-blue-600 hover:underline"
-                             >
-                                 Clear Dates
-                             </button>
-                        </div>
-
-                        {/* Offense Category Filter - MODIFIED */}
-                        <div>
-                            <label className="block text-sm font-medium text-gray-600 mb-1">Offense Category(s)</label>
-                            <div className="max-h-32 overflow-y-auto border border-gray-300 rounded-md p-2 bg-gray-50 text-sm">
-                                {uniqueCategories.length > 0 ? (
-                                    uniqueCategories.map(category => (
-                                        <div key={category} className="flex items-center mb-1">
-                                            {/* Color Swatch */}
-                                            <span
-                                                className="w-3 h-3 rounded-sm mr-2 inline-block flex-shrink-0"
-                                                style={{ backgroundColor: categoryColorMap[category] || '#9CA3AF' /* Default gray */ }}
-                                                title={category} // Tooltip with category name
-                                            ></span>
-                                            <input
-                                                type="checkbox"
-                                                id={`category-${category}`}
-                                                value={category}
-                                                checked={selectedCategories.includes(category)}
-                                                onChange={handleCategoryChange}
-                                                className="h-4 w-4 text-indigo-600 border-gray-300 rounded focus:ring-indigo-500 mr-2"
-                                            />
-                                            {/* Allow label to wrap if needed */}
-                                            <label htmlFor={`category-${category}`} className="text-gray-700 cursor-pointer break-words">
-                                                {category}
-                                            </label>
-                                        </div>
-                                    ))
-                                ) : (
-                                    <p className="text-gray-500 italic">No offense categories found.</p>
-                                )}
-                            </div>
-                             <button
-                                onClick={() => setSelectedCategories([])}
-                                className="mt-1.5 text-xs text-blue-600 hover:underline"
-                             >
-                                 Clear Selection
-                             </button>
-                        </div>
+                         <button
+                            onClick={() => { setIncidentDateStart(''); setIncidentDateEnd(''); }}
+                            className="mt-1.5 text-xs text-blue-600 hover:underline"
+                         >
+                            Clear Dates
+                         </button>
                     </div>
-                  </div>
-                )}
-            </div>
-        )}
+
+                    {/* Report Date Filter */}
+                    <div>
+                        <label className="block text-sm font-medium text-gray-600 mb-1">Police Log Date Range</label>
+                        <div className="flex space-x-2">
+                            <input
+                                type="date"
+                                value={reportDateStart}
+                                onChange={(e) => setReportDateStart(e.target.value)}
+                                className="w-full p-1.5 border border-gray-300 rounded-md text-sm text-gray-700 focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500"
+                                aria-label="Report start date"
+                            />
+                            <input
+                                type="date"
+                                value={reportDateEnd}
+                                onChange={(e) => setReportDateEnd(e.target.value)}
+                                className="w-full p-1.5 border border-gray-300 rounded-md text-sm text-gray-700 focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500"
+                                aria-label="Report end date"
+                                min={reportDateStart} // Prevent end date being before start date
+                            />
+                        </div>
+                         <button
+                            onClick={() => { setReportDateStart(''); setReportDateEnd(''); }}
+                            className="mt-1.5 text-xs text-blue-600 hover:underline"
+                         >
+                             Clear Dates
+                         </button>
+                    </div>
+
+                    {/* Offense Category Filter - MODIFIED */}
+                    <div>
+                        <label className="block text-sm font-medium text-gray-600 mb-1">Offense Category(s)</label>
+                        <div className="max-h-32 overflow-y-auto border border-gray-300 rounded-md p-2 bg-gray-50 text-sm">
+                            {uniqueCategories.length > 0 ? (
+                                uniqueCategories.map(category => (
+                                    <div key={category} className="flex items-center mb-1">
+                                        {/* Color Swatch */}
+                                        <span
+                                            className="w-3 h-3 rounded-sm mr-2 inline-block flex-shrink-0"
+                                            style={{ backgroundColor: categoryColorMap[category] || '#9CA3AF' /* Default gray */ }}
+                                            title={category} // Tooltip with category name
+                                        ></span>
+                                        <input
+                                            type="checkbox"
+                                            id={`category-${category}`}
+                                            value={category}
+                                            checked={selectedCategories.includes(category)}
+                                            onChange={handleCategoryChange}
+                                            className="h-4 w-4 text-indigo-600 border-gray-300 rounded focus:ring-indigo-500 mr-2"
+                                        />
+                                        {/* Allow label to wrap if needed */}
+                                        <label htmlFor={`category-${category}`} className="text-gray-700 cursor-pointer break-words">
+                                            {category}
+                                        </label>
+                                    </div>
+                                ))
+                            ) : (
+                                <p className="text-gray-500 italic">No offense categories found.</p>
+                            )}
+                        </div>
+                         <button
+                            onClick={() => setSelectedCategories([])}
+                            className="mt-1.5 text-xs text-blue-600 hover:underline"
+                         >
+                             Clear Selection
+                         </button>
+                    </div>
+                </div>
+              </div>
+            )}
+        </div>
 
         {/* Tab Content */}
         <div className="flex-grow relative"> {/* Added relative positioning for absolute search bar */}
           {/* Map View - Pass filtered incidents AND color map */}
-          {activeTab === 'map' && (
-            <APIProvider apiKey={apiKey} libraries={['places']}>
-              <div className="relative w-full h-[65vh] md:h-[70vh] rounded-lg shadow-lg overflow-hidden border border-gray-300">
-                 {/* Pass the filtered incidents AND the color map */}
-                 <MapContent
-                    incidentsToDisplay={filteredIncidents}
-                    categoryColorMap={categoryColorMap} // Pass the map here
-                 />
-              </div>
-            </APIProvider>
-          )}
-
-          {/* Source Data Tab Content */}
-          {activeTab === 'source' && (
-            <div className="prose max-w-none p-4 bg-white rounded-lg shadow border border-gray-200 text-gray-900">
-              <h2>Source Data</h2>
-              <p>
-                The incident data visualized on the map is derived from the publicly available Police Report Logs published by the City of Palo Alto Police Department.
-              </p>
-              <p>
-                These logs are typically released daily in PDF format and contain information about police reports processed the previous day.
-              </p>
-              <p>
-                The raw PDF files used for this project can be found on the official City website:
-                <br />
-                <a href="https://www.paloalto.gov/Departments/Police/Public-Information-Portal/Police-Report-Log" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline">
-                  https://www.paloalto.gov/Departments/Police/Public-Information-Portal/Police-Report-Log
-                </a>
-              </p>
-              <p>
-                Please refer to the source PDFs for the most official and complete information.
-              </p>
+          <APIProvider apiKey={apiKey} libraries={['places']}>
+            <div className="relative w-full h-[65vh] md:h-[70vh] rounded-lg shadow-lg overflow-hidden border border-gray-300">
+               {/* Pass the filtered incidents AND the color map */}
+               <MapContent
+                  incidentsToDisplay={filteredIncidents}
+                  categoryColorMap={categoryColorMap} // Pass the map here
+               />
             </div>
-          )}
-
-          {/* Methodology Tab Content */}
-          {activeTab === 'methodology' && (
-            <div className="prose max-w-none p-4 bg-white rounded-lg shadow border border-gray-200 text-gray-900">
-              <h2>Methodology</h2>
-              <p>
-A high-level overview of the process used to generate the data for this visualization:</p>
-              <ol>
-                <li><strong>PDF Download:</strong> Scripts periodically download the latest Police Report Log PDFs from the City of Palo Alto website.</li>
-                <li><strong>Text Extraction:</strong> The text content is extracted from each PDF file.</li>
-                <li><strong>Parsing:</strong> Custom parsing logic identifies and extracts relevant fields (Case #, Date, Time, Offense, Location) for each incident listed in the log.</li>
-                <li><strong>Data Cleaning & Structuring:</strong> The extracted data is cleaned (e.g., standardizing date formats) and structured into a consistent format (CSV or JSON).</li>
-                <li><strong>Geocoding:</strong> The extracted &apos;Location&apos; strings are sent to the Google Geocoding API to obtain precise latitude and longitude coordinates, along with a formatted address and location type interpretation (e.g., specific address, intersection).</li>
-                <li><strong>Data Aggregation:</strong> Geocoded data from multiple logs is combined into a single dataset (`incidents.json`).</li>
-                <li><strong>Visualization:</strong> This website loads the aggregated data and uses the Google Maps API (via `@vis.gl/react-google-maps`) to display the incidents as markers on the interactive map.</li>
-              </ol>
-              <p>
-                Error handling and rate limiting are implemented during the geocoding step. Some locations may not be geocoded successfully if the address is ambiguous or doesn&apos;t match Google Maps data.
-              </p>
-            </div>
-          )}
+          </APIProvider>
         </div>
 
         {/* Footer Notes - Remains empty */}
