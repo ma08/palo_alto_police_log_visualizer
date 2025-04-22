@@ -56,6 +56,7 @@ This specific frontend instance may be deployed on Vercel (check main project de
         ```bash
         # Example from parent directory:
         # python run_e2e_pipeline.py --start-date YYYY-MM-DD --end-date YYYY-MM-DD
+        python run_pipeline.py --start-date YYYY-MM-DD --end-date YYYY-MM-DD
         ```
 
 5.  **Run Development Server:**
@@ -74,8 +75,8 @@ This specific frontend instance may be deployed on Vercel (check main project de
 ## Data (`/public/data/incidents.json`)
 
 -   The application loads the incident data statically from this JSON file at build time.
--   This file is the final output of the main project's data processing pipeline (`scripts/prepare_website_data.py`).
--   **Data Structure:** The JSON is an array of incident objects. Key fields include:
+-   This file is the final output of the main project's data processing pipeline (`pipeline/steps/step_5_prepare_output.py`).
+-   **Data Structure:** The JSON is an array of incident objects. Key fields currently include:
     -   `case_number`: Incident identifier (string).
     -   `date`: Date of the incident (string, typically MM/DD/YYYY).
     -   `time`: Time of the incident represented as **minutes past midnight** (number, 0-1439). Invalid/missing times are represented as `0`.
